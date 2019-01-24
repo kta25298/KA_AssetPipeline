@@ -1,6 +1,8 @@
-﻿Log file open, 01/23/19 07:53:41
+﻿Log file open, 01/23/19 22:46:47
 LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
 LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VSPerf140.dll' (GetLastError=126)
+LogWindows: File 'VSPerf140.dll' does not exist
 LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
 LogWindows: File 'VtuneApi.dll' does not exist
 LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
@@ -8,7 +10,7 @@ LogWindows: File 'VtuneApi32e.dll' does not exist
 LogInit: Display: Running engine for game: KA_WBCB002_AP
 LogPlatformFile: Not using cached read wrapper
 LogTaskGraph: Started task graph with 5 named threads and 23 total threads with 3 sets of task threads.
-LogStats: Stats thread started at 0.275701
+LogStats: Stats thread started at 0.306645
 LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
 LogICUInternationalization: Display: ICU TimeZone Detection - Raw Offset: -7:00, Platform Override: ''
 LogPluginManager: Mounting plugin Paper2D
@@ -91,7 +93,7 @@ LogPluginManager: Mounting plugin ProceduralMeshComponent
 LogPluginManager: Mounting plugin RuntimePhysXCooking
 LogPluginManager: Mounting plugin SteamVR
 LogPluginManager: Mounting plugin WindowsMoviePlayer
-LogStreaming: Display: Took  0.095s to configure plugins.
+LogStreaming: Display: Took  0.107s to configure plugins.
 LogInit: Using libcurl 7.55.1-DEV
 LogInit:  - built for x86_64-pc-win32
 LogInit:  - supports SSL with OpenSSL/1.0.2h
@@ -116,13 +118,13 @@ LogInit: Build: ++UE4+Release-4.20-CL-4369336
 LogInit: Engine Version: 4.20.3-4369336+++UE4+Release-4.20
 LogInit: Compatible Engine Version: 4.20.0-4212847+++UE4+Release-4.20
 LogInit: Net CL: 4212847
-LogInit: OS: Windows 10 (), CPU: Intel(R) Core(TM) i7-8809G CPU @ 3.10GHz, GPU: Radeon RX Vega M GH Graphics
+LogInit: OS: Windows 10 (), CPU:        Intel(R) Core(TM) i7-3770K CPU @ 3.50GHz, GPU: NVIDIA GeForce GTX 1070
 LogInit: Compiled (64-bit): Sep 17 2018 12:26:19
 LogInit: Compiled with Visual C++: 19.13.26129.00
 LogInit: Build Configuration: Development
 LogInit: Branch Name: ++UE4+Release-4.20
-LogInit: Command Line: -EpicPortal  -epicusername="kendrickAustin" -epicuserid=6cb5ffaa61c74406bc3a72a01411e918 -epiclocale=en-US
-LogInit: Base Directory: C:/Program Files/Epic Games/UE_4.20/Engine/Binaries/Win64/
+LogInit: Command Line: 
+LogInit: Base Directory: F:/Unreal/Epic Games/UE_4.20/Engine/Binaries/Win64/
 LogInit: Installed Engine Build: 1
 LogDevObjectVersion: Number of dev versions registered: 20
 LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
@@ -145,695 +147,520 @@ LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC
 LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
 LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 12
 LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 1
-LogStreaming: Display: Took  0.000s to delete old logs.
+LogStreaming: Display: Took  0.001s to delete old logs.
 LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
 LogInit: Object subsystem initialized
-[2019.01.23-14.53.41:831][  0]LogInit: Selected Device Profile: [Windows]
-[2019.01.23-14.53.41:831][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2019.01.23-14.53.41:843][  0]LogHAL: Display: Platform has ~ 16 GB [17094639616 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
-[2019.01.23-14.53.41:843][  0]LogInit: Setting Device Profile CVar: [[r.Vulkan.UseRealUBs:1]]
-[2019.01.23-14.53.41:843][  0]LogInit: Going up to parent DeviceProfile []
-[2019.01.23-14.53.41:844][  0]LogInit: Computer: eae-n-016
-[2019.01.23-14.53.41:844][  0]LogInit: User: u0917946
-[2019.01.23-14.53.41:844][  0]LogInit: CPU Page size=4096, Cores=4
-[2019.01.23-14.53.41:844][  0]LogInit: High frequency timer resolution =3.023439 MHz
-[2019.01.23-14.53.41:844][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
-[2019.01.23-14.53.41:844][  0]LogMemory: Platform Memory Stats for Windows
-[2019.01.23-14.53.41:844][  0]LogMemory: Process Physical Memory: 100.16 MB used, 100.16 MB peak
-[2019.01.23-14.53.41:844][  0]LogMemory: Process Virtual Memory: 94.98 MB used, 94.98 MB peak
-[2019.01.23-14.53.41:844][  0]LogMemory: Physical Memory: 4643.32 MB used,  11659.39 MB free, 16302.72 MB total
-[2019.01.23-14.53.41:844][  0]LogMemory: Virtual Memory: 4644.71 MB used,  11659.39 MB free, 134217728.00 MB total
-[2019.01.23-14.53.41:858][  0]LogInit: Using OS detected language (en-US).
-[2019.01.23-14.53.41:858][  0]LogInit: Using OS detected locale (en-US).
-[2019.01.23-14.53.41:859][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
-[2019.01.23-14.53.42:188][  0]LogStreaming: Display: Took  0.331s to InitEngineTextLocalization.
-[2019.01.23-14.53.42:188][  0]LogInit: Setting process to per monitor DPI aware
-[2019.01.23-14.53.42:214][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
-[2019.01.23-14.53.42:214][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
-[2019.01.23-14.53.42:387][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2019.01.23-14.53.42:387][  0]LogD3D11RHI: D3D11 adapters:
-[2019.01.23-14.53.42:417][  0]LogD3D11RHI:    0. 'Radeon RX Vega M GH Graphics' (Feature Level 11_0)
-[2019.01.23-14.53.42:417][  0]LogD3D11RHI:       4042/0/8151 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x1002
-[2019.01.23-14.53.42:428][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 630' (Feature Level 11_0)
-[2019.01.23-14.53.42:428][  0]LogD3D11RHI:       128/0/8151 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
-[2019.01.23-14.53.42:429][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
-[2019.01.23-14.53.42:429][  0]LogD3D11RHI:       0/0/8151 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
-[2019.01.23-14.53.42:429][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
-[2019.01.23-14.53.42:437][  0]LogD3D11RHI: Creating new Direct3DDevice
-[2019.01.23-14.53.42:437][  0]LogD3D11RHI:     GPU DeviceId: 0x694c (for the marketing name, search the web for "GPU Device Id")
-[2019.01.23-14.53.42:437][  0]LogWindows: EnumDisplayDevices:
-[2019.01.23-14.53.42:437][  0]LogWindows:    0. 'Radeon RX Vega M GH Graphics' (P:1 D:1)
-[2019.01.23-14.53.42:438][  0]LogWindows:    1. 'Radeon RX Vega M GH Graphics' (P:0 D:0)
-[2019.01.23-14.53.42:438][  0]LogWindows:    2. 'Radeon RX Vega M GH Graphics' (P:0 D:0)
-[2019.01.23-14.53.42:438][  0]LogWindows:    3. 'Radeon RX Vega M GH Graphics' (P:0 D:0)
-[2019.01.23-14.53.42:438][  0]LogWindows:    4. 'Radeon RX Vega M GH Graphics' (P:0 D:0)
-[2019.01.23-14.53.42:439][  0]LogWindows:    5. 'Radeon RX Vega M GH Graphics' (P:0 D:0)
-[2019.01.23-14.53.42:439][  0]LogWindows:    6. 'Radeon RX Vega M GH Graphics' (P:0 D:0)
-[2019.01.23-14.53.42:439][  0]LogWindows:    7. 'Intel(R) HD Graphics 630' (P:0 D:0)
-[2019.01.23-14.53.42:439][  0]LogWindows:    8. 'Intel(R) HD Graphics 630' (P:0 D:0)
-[2019.01.23-14.53.42:439][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:7 
-[2019.01.23-14.53.42:439][  0]LogD3D11RHI:     Adapter Name: Radeon RX Vega M GH Graphics
-[2019.01.23-14.53.42:439][  0]LogD3D11RHI:   Driver Version: Adrenalin 18.9.1 (internal:24.20.11026.2001, unified:24.20.11026.2001)
-[2019.01.23-14.53.42:439][  0]LogD3D11RHI:      Driver Date: 8-30-2018
-[2019.01.23-14.53.42:439][  0]LogRHI: Texture pool is 2829 MB (70% of 4042 MB)
-[2019.01.23-14.53.42:515][  0]LogD3D11RHI: Async texture creation enabled
-[2019.01.23-14.53.42:526][  0]LogD3D11RHI: GPU Timing Frequency: 25.000000 (Debug: 2 1)
-[2019.01.23-14.53.42:527][  0]LogShaderCompilers: Guid format shader working directory is -31 characters bigger than the processId version (../../../../../../Users/u0917946/Documents/GitHub/KA_AssetPipeline/KA_WBCB002_AP/Intermediate/Shaders/WorkingDirectory/9376/).
-[2019.01.23-14.53.42:527][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/u0917946/AppData/Local/Temp/UnrealShaderWorkingDir/5499D6D54643FD1A2ED97986EEB2BBCA/'.
-[2019.01.23-14.53.42:794][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
-[2019.01.23-14.53.42:805][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
-[2019.01.23-14.53.42:817][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
-[2019.01.23-14.53.42:829][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
-[2019.01.23-14.53.42:841][  0]LogTemp: Display: Loaded TP MacTargetPlatform
-[2019.01.23-14.53.42:853][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
-[2019.01.23-14.53.42:873][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
-[2019.01.23-14.53.42:884][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
-[2019.01.23-14.53.42:890][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
-[2019.01.23-14.53.42:956][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.01.23-14.53.42:956][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.01.23-14.53.42:956][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.01.23-14.53.42:956][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.01.23-14.53.42:956][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.01.23-14.53.42:956][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.01.23-14.53.42:956][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.01.23-14.53.42:956][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.01.23-14.53.42:956][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.01.23-14.53.42:956][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.01.23-14.53.42:956][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.01.23-14.53.42:956][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.01.23-14.53.42:956][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.01.23-14.53.42:956][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.01.23-14.53.42:956][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.01.23-14.53.42:956][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.01.23-14.53.42:956][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.01.23-14.53.42:956][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.01.23-14.53.42:957][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
-[2019.01.23-14.53.43:012][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
-[2019.01.23-14.53.43:012][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
-[2019.01.23-14.53.43:031][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
-[2019.01.23-14.53.43:031][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
-[2019.01.23-14.53.43:042][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
-[2019.01.23-14.53.43:052][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
-[2019.01.23-14.53.43:063][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
-[2019.01.23-14.53.43:075][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
-[2019.01.23-14.53.43:082][  0]LogTemp: Display: Loaded TP LuminTargetPlatform
-[2019.01.23-14.53.43:082][  0]LogTargetPlatformManager: Display: Building Assets For Windows
-[2019.01.23-14.53.43:145][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
-[2019.01.23-14.53.43:146][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
-[2019.01.23-14.53.43:146][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
-[2019.01.23-14.53.43:824][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
-[2019.01.23-14.53.43:880][  0]LogDerivedDataCache: Loaded boot cache 0.06s 87MB C:/Users/u0917946/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
-[2019.01.23-14.53.43:881][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/u0917946/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc
-[2019.01.23-14.53.43:881][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/u0917946/Documents/GitHub/KA_AssetPipeline/KA_WBCB002_AP/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2019.01.23-14.53.43:881][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2019.01.23-14.53.43:881][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/u0917946/Documents/GitHub/KA_AssetPipeline/KA_WBCB002_AP/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2019.01.23-14.53.43:881][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2019.01.23-14.53.43:892][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2019.01.23-14.53.43:904][  0]LogDerivedDataCache: Using Local data cache path C:/Users/u0917946/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2019.01.23-14.53.43:904][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
-[2019.01.23-14.53.43:904][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
-[2019.01.23-14.53.43:920][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
-[2019.01.23-14.53.43:921][  0]LogSlate: Using FreeType 2.6.0
-[2019.01.23-14.53.43:922][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2019.01.23-14.53.43:987][  0]LogAssetRegistry: FAssetRegistry took 0.0256 seconds to start up
-[2019.01.23-14.53.44:262][  0]LogInit: Selected Device Profile: [Windows]
-[2019.01.23-14.53.44:384][  0]LogSimplygon: Simplygon DLL not present - disabling.
-[2019.01.23-14.53.44:387][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
-[2019.01.23-14.53.44:387][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
-[2019.01.23-14.53.44:387][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
-[2019.01.23-14.53.44:387][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
-[2019.01.23-14.53.44:401][  0]LogNetVersion: KA_WBCB002_AP 1.0.0, NetCL: 4212847, EngineNetVer: 5, GameNetVer: 0 (Checksum: 1864655241)
-[2019.01.23-14.53.44:926][  0]LogPackageLocalizationCache: Processed 11 localized package path(s) for 2 prioritized culture(s) in 0.103226 seconds
-[2019.01.23-14.53.44:932][  0]LogUObjectArray: 38425 objects as part of root set at end of initial load.
-[2019.01.23-14.53.44:932][  0]LogUObjectAllocator: 6690864 out of 0 bytes used by permanent object pool.
-[2019.01.23-14.53.44:932][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
-[2019.01.23-14.53.45:708][  0]LogTcpMessaging: Initializing TcpMessaging bridge
-[2019.01.23-14.53.45:722][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2019.01.23-14.53.45:858][  0]SourceControl: Source control is disabled
-[2019.01.23-14.53.45:858][  0]SourceControl: Source control is disabled
-[2019.01.23-14.53.45:860][  0]SourceControl: Source control is disabled
-[2019.01.23-14.53.45:861][  0]SourceControl: Source control is disabled
-[2019.01.23-14.53.46:021][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
-[2019.01.23-14.53.46:101][  0]LogOcInput: OculusInput pre-init called
-[2019.01.23-14.53.46:161][  0]LogEngine: Initializing Engine...
-[2019.01.23-14.53.46:162][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2019.01.23-14.53.46:162][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
-[2019.01.23-14.53.46:162][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2019.01.23-14.53.46:163][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
-[2019.01.23-14.53.46:163][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2019.01.23-14.53.46:358][  0]LogInit: Initializing FReadOnlyCVARCache
-[2019.01.23-14.53.46:372][  0]LogAIModule: Creating AISystem for world Untitled
-[2019.01.23-14.53.46:398][  0]LogInit: XAudio2 using '1 - CintiqPro24P (AMD High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
-[2019.01.23-14.53.46:427][  0]LogInit: FAudioDevice initialized.
-[2019.01.23-14.53.46:427][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
-[2019.01.23-14.53.46:507][  0]LogDerivedDataCache: Saved boot cache 0.08s 71MB C:/Users/u0917946/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
-[2019.01.23-14.53.46:510][  0]LogInit: Texture streaming: Enabled
-[2019.01.23-14.53.46:527][  0]LogEngineSessionManager: EngineSessionManager initialized
-[2019.01.23-14.53.46:543][  0]LogInit: Transaction tracking system initialized
-[2019.01.23-14.53.46:567][  0]BlueprintLog: New page: Editor Load
-[2019.01.23-14.53.46:668][  0]LocalizationService: Localization service is disabled
-[2019.01.23-14.53.46:939][  0]LogFileCache: Scanning file cache for directory 'C:/Users/u0917946/Documents/GitHub/KA_AssetPipeline/KA_WBCB002_AP/Content/' took 0.02s
-[2019.01.23-14.53.46:939][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
-[2019.01.23-14.53.46:939][  0]LogCook: Display: Mobile HDR setting 1
-[2019.01.23-14.53.46:939][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
-[2019.01.23-14.53.46:939][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
-[2019.01.23-14.53.46:939][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2019.01.23-14.53.46:939][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
-[2019.01.23-14.53.46:939][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2019.01.23-14.53.47:056][  0]SourceControl: Source control is disabled
-[2019.01.23-14.53.47:056][  0]Cmd: MAP LOAD FILE="../../../Engine/Content/Maps/Templates/Template_Default.umap" TEMPLATE=1 SHOWPROGRESS=1 FEATURELEVEL=3
-[2019.01.23-14.53.47:057][  0]LightingResults: New page: Lighting Build
-[2019.01.23-14.53.47:059][  0]MapCheck: New page: Map Check
-[2019.01.23-14.53.47:059][  0]LightingResults: New page: Lighting Build
-[2019.01.23-14.53.47:245][  0]LogAIModule: Creating AISystem for world Untitled_1
-[2019.01.23-14.53.47:251][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2019.01.23-14.53.47:272][  0]Cmd: MAP CHECKDEP NOCLEARLOG
-[2019.01.23-14.53.47:335][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 62.927ms to complete.
-[2019.01.23-14.53.47:335][  0]LogFileHelpers: Loading map 'Template_Default' took 0.279
-[2019.01.23-14.53.47:461][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.01.23-14.53.47:469][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.01.23-14.53.47:477][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.01.23-14.53.47:484][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.01.23-14.53.47:502][  0]LogCollectionManager: Loaded 0 collections in 0.002175 seconds
-[2019.01.23-14.53.47:567][  0]LogFileCache: Scanning file cache for directory 'C:/Users/u0917946/Documents/GitHub/KA_AssetPipeline/KA_WBCB002_AP/Saved/Collections/' took 0.01s
-[2019.01.23-14.53.47:567][  0]LogFileCache: Scanning file cache for directory 'C:/Users/u0917946/Documents/GitHub/KA_AssetPipeline/KA_WBCB002_AP/Content/Developers/u0917946/Collections/' took 0.01s
-[2019.01.23-14.53.47:567][  0]LogFileCache: Scanning file cache for directory 'C:/Users/u0917946/Documents/GitHub/KA_AssetPipeline/KA_WBCB002_AP/Content/Collections/' took 0.01s
-[2019.01.23-14.53.47:567][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
-[2019.01.23-14.53.47:583][  0]LogContentBrowser: Native class hierarchy populated in 0.0139 seconds. Added 2572 classes and 603 folders.
-[2019.01.23-14.53.47:601][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0003 seconds. Added 0 classes and 0 folders.
-[2019.01.23-14.53.48:053][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0002 seconds. Added 0 classes and 0 folders.
-[2019.01.23-14.53.48:068][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0002 seconds. Added 1 classes and 2 folders.
-[2019.01.23-14.53.48:123][  0]LogSlate: Took 0.000209 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2019.01.23-14.53.48:125][  0]LogSlate: Took 0.000191 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
-[2019.01.23-14.53.48:138][  0]LogSlate: Took 0.006336 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
-[2019.01.23-14.53.48:266][  0]LogRenderer: Reallocating scene render targets to support 1208x576 Format 10 NumSamples 1 (Frame:1).
-[2019.01.23-14.53.48:462][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0002 seconds. Added 0 classes and 0 folders.
-[2019.01.23-14.53.48:462][  0]LogLoad: (Engine Initialization) Total time: 8.66 seconds
-[2019.01.23-14.53.48:462][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
-[2019.01.23-14.53.48:491][  0]LogContentStreaming: Texture pool size now 1000 MB
-[2019.01.23-14.53.52:533][460]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
-[2019.01.23-14.53.53:500][572]LogAssetRegistry: Asset discovery search completed in 9.5361 seconds
-[2019.01.23-14.53.53:501][572]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000004 seconds (updated 0 objects)
-[2019.01.23-14.53.54:665][711]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.01.23-14.53.54:866][734]LogSlate: Took 0.005375 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
-[2019.01.23-14.53.55:129][734]LogAIModule: Creating AISystem for world KA_CityBlock
-[2019.01.23-14.53.55:214][734]LogAssetEditorManager: Opening Asset editor for World /Game/KA_CityBlock.KA_CityBlock
-[2019.01.23-14.53.55:237][734]Cmd: MAP LOAD FILE="../../../../../../Users/u0917946/Documents/GitHub/KA_AssetPipeline/KA_WBCB002_AP/Content/KA_CityBlock.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2019.01.23-14.53.55:237][734]LightingResults: New page: Lighting Build
-[2019.01.23-14.53.55:238][734]LoadErrors: New page: Loading map: KA_CityBlock.umap
-[2019.01.23-14.53.55:238][734]MapCheck: New page: Map Check
-[2019.01.23-14.53.55:238][734]LightingResults: New page: Lighting Build
-[2019.01.23-14.53.55:272][734]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2019.01.23-14.53.55:343][734]Cmd: MAP CHECKDEP NOCLEARLOG
-[2019.01.23-14.53.55:403][734]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 59.805ms to complete.
-[2019.01.23-14.53.55:403][734]LogFileHelpers: Loading map 'KA_CityBlock' took 0.166
-[2019.01.23-14.57.52:357][871]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.01.23-14.57.56:927][274]AssetReimport: New page: Outstanding source content changes 12:57:56 AM
-[2019.01.23-14.57.56:930][274]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 C:/Users/u0917946/Documents/GitHub/KA_AssetPipeline/KA_WBCB002_AP/Content/mann.obj)
-[2019.01.23-14.57.56:939][274]LogFbx: Loading FBX Scene from C:/Users/u0917946/Documents/GitHub/KA_AssetPipeline/KA_WBCB002_AP/Content/mann.obj
-[2019.01.23-14.57.57:017][274]LogFbx: FBX Scene Loaded Succesfully
-[2019.01.23-14.58.05:614][274]LogSlate: Window 'FBX Import Options' being destroyed
-[2019.01.23-14.58.06:332][274]LogStaticMesh: Building static mesh mann...
-[2019.01.23-14.58.06:466][274]LogStaticMesh: Built static mesh [0.13s] /Game/mann.mann
-[2019.01.23-14.58.06:633][275]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/mann" FILE="../../../../../../Users/u0917946/Documents/GitHub/KA_AssetPipeline/KA_WBCB002_AP/Content/mann.uasset" SILENT=true
-[2019.01.23-14.58.06:653][275]LogSavePackage: Moving '../../../../../../Users/u0917946/Documents/GitHub/KA_AssetPipeline/KA_WBCB002_AP/Saved/mann04ACB6904C8E413B57FA3A8F20BCCD60.tmp' to '../../../../../../Users/u0917946/Documents/GitHub/KA_AssetPipeline/KA_WBCB002_AP/Content/mann.uasset'
-[2019.01.23-14.58.08:839][409]LogActorFactory: Actor Factory created mann
-[2019.01.23-14.58.09:670][463]AssetReimport: Importing new asset /Game/mann.
-[2019.01.23-14.58.11:267][625]LogActorFactory: Actor Factory created mann
-[2019.01.23-14.58.16:144][183]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
-[2019.01.23-14.59.18:444][515]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.01.23-14.59.57:599][593]Cmd: TRANSACTION UNDO
-[2019.01.23-14.59.57:599][593]LogEditorTransaction: Undo Snap Actors To Floor
-[2019.01.23-14.59.57:868][593]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_CityBlock.KA_CityBlock:PersistentLevel.Brush_Street_497.BrushComponent0) Component already registered.
-[2019.01.23-14.59.57:868][593]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_CityBlock.KA_CityBlock:PersistentLevel.Brush_Street_498.BrushComponent0) Component already registered.
-[2019.01.23-14.59.57:869][593]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_CityBlock.KA_CityBlock:PersistentLevel.Brush_Street_494.BrushComponent0) Component already registered.
-[2019.01.23-14.59.57:869][593]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_CityBlock.KA_CityBlock:PersistentLevel.Brush_Street_495.BrushComponent0) Component already registered.
-[2019.01.23-14.59.57:870][593]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_CityBlock.KA_CityBlock:PersistentLevel.Brush_Street_455.BrushComponent0) Component already registered.
-[2019.01.23-14.59.57:870][593]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_CityBlock.KA_CityBlock:PersistentLevel.Brush_Street_468.BrushComponent0) Component already registered.
-[2019.01.23-14.59.57:870][593]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_CityBlock.KA_CityBlock:PersistentLevel.Brush_Street_469.BrushComponent0) Component already registered.
-[2019.01.23-14.59.57:873][593]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_CityBlock.KA_CityBlock:PersistentLevel.Brush_Cottage_4.BrushComponent0) Component already registered.
-[2019.01.23-14.59.57:873][593]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_CityBlock.KA_CityBlock:PersistentLevel.Brush_Street_387.BrushComponent0) Component already registered.
-[2019.01.23-14.59.57:873][593]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_CityBlock.KA_CityBlock:PersistentLevel.Brush_Street_388.BrushComponent0) Component already registered.
-[2019.01.23-14.59.57:875][593]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_CityBlock.KA_CityBlock:PersistentLevel.Brush_Street_384.BrushComponent0) Component already registered.
-[2019.01.23-14.59.57:875][593]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_CityBlock.KA_CityBlock:PersistentLevel.Brush_Street_385.BrushComponent0) Component already registered.
-[2019.01.23-14.59.57:875][593]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_CityBlock.KA_CityBlock:PersistentLevel.Brush_Street_559.BrushComponent0) Component already registered.
-[2019.01.23-14.59.57:875][593]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_CityBlock.KA_CityBlock:PersistentLevel.Brush_Street_560.BrushComponent0) Component already registered.
-[2019.01.23-14.59.57:876][593]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_CityBlock.KA_CityBlock:PersistentLevel.Brush_Street_413.BrushComponent0) Component already registered.
-[2019.01.23-14.59.57:877][593]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_CityBlock.KA_CityBlock:PersistentLevel.Brush_Street_112.BrushComponent0) Component already registered.
-[2019.01.23-14.59.57:878][593]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_CityBlock.KA_CityBlock:PersistentLevel.Brush_Street_86.BrushComponent0) Component already registered.
-[2019.01.23-14.59.57:879][593]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_CityBlock.KA_CityBlock:PersistentLevel.Brush_Street_87.BrushComponent0) Component already registered.
-[2019.01.23-14.59.57:881][593]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_CityBlock.KA_CityBlock:PersistentLevel.Brush_Street_167.BrushComponent0) Component already registered.
-[2019.01.23-14.59.57:881][593]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_CityBlock.KA_CityBlock:PersistentLevel.Brush_Street_168.BrushComponent0) Component already registered.
-[2019.01.23-14.59.57:882][593]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_CityBlock.KA_CityBlock:PersistentLevel.Brush_Street_141.BrushComponent0) Component already registered.
-[2019.01.23-14.59.57:882][593]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_CityBlock.KA_CityBlock:PersistentLevel.Brush_Street_142.BrushComponent0) Component already registered.
-[2019.01.23-14.59.57:884][593]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_CityBlock.KA_CityBlock:PersistentLevel.Brush_Street_66.BrushComponent0) Component already registered.
-[2019.01.23-14.59.57:884][593]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_CityBlock.KA_CityBlock:PersistentLevel.Brush_Street_74.BrushComponent0) Component already registered.
-[2019.01.23-14.59.57:885][593]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_CityBlock.KA_CityBlock:PersistentLevel.Brush_Street_31.BrushComponent0) Component already registered.
-[2019.01.23-14.59.57:885][593]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_CityBlock.KA_CityBlock:PersistentLevel.Brush_Street_63.BrushComponent0) Component already registered.
-[2019.01.23-14.59.57:898][593]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_CityBlock.KA_CityBlock:PersistentLevel.Brush_Street_5.BrushComponent0) Component already registered.
-[2019.01.23-14.59.57:898][593]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_CityBlock.KA_CityBlock:PersistentLevel.Brush_Street_17.BrushComponent0) Component already registered.
-[2019.01.23-14.59.57:900][593]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_CityBlock.KA_CityBlock:PersistentLevel.Brush_Street_73.BrushComponent0) Component already registered.
-[2019.01.23-14.59.57:903][593]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_CityBlock.KA_CityBlock:PersistentLevel.Brush_Street_60.BrushComponent0) Component already registered.
-[2019.01.23-14.59.57:905][593]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_CityBlock.KA_CityBlock:PersistentLevel.Brush_Street_312.BrushComponent0) Component already registered.
-[2019.01.23-14.59.57:906][593]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_CityBlock.KA_CityBlock:PersistentLevel.Brush_Street_313.BrushComponent0) Component already registered.
-[2019.01.23-14.59.57:906][593]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_CityBlock.KA_CityBlock:PersistentLevel.Brush_Street_309.BrushComponent0) Component already registered.
-[2019.01.23-14.59.57:907][593]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_CityBlock.KA_CityBlock:PersistentLevel.Brush_Street_310.BrushComponent0) Component already registered.
-[2019.01.23-14.59.57:907][593]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_CityBlock.KA_CityBlock:PersistentLevel.Brush_Street_280.BrushComponent0) Component already registered.
-[2019.01.23-14.59.57:907][593]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_CityBlock.KA_CityBlock:PersistentLevel.Brush_Street_281.BrushComponent0) Component already registered.
-[2019.01.23-14.59.57:909][593]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_CityBlock.KA_CityBlock:PersistentLevel.Brush_Street_283.BrushComponent0) Component already registered.
-[2019.01.23-14.59.57:909][593]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_CityBlock.KA_CityBlock:PersistentLevel.Brush_Street_284.BrushComponent0) Component already registered.
-[2019.01.23-14.59.57:911][593]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_CityBlock.KA_CityBlock:PersistentLevel.Brush_Street_361.BrushComponent0) Component already registered.
-[2019.01.23-14.59.57:913][593]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_CityBlock.KA_CityBlock:PersistentLevel.Brush_Street_335.BrushComponent0) Component already registered.
-[2019.01.23-14.59.57:913][593]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_CityBlock.KA_CityBlock:PersistentLevel.Brush_Street_336.BrushComponent0) Component already registered.
-[2019.01.23-14.59.57:913][593]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_CityBlock.KA_CityBlock:PersistentLevel.Brush_Street_332.BrushComponent0) Component already registered.
-[2019.01.23-14.59.57:914][593]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_CityBlock.KA_CityBlock:PersistentLevel.Brush_Street_333.BrushComponent0) Component already registered.
-[2019.01.23-14.59.57:915][593]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_CityBlock.KA_CityBlock:PersistentLevel.Brush_Street_222.BrushComponent0) Component already registered.
-[2019.01.23-14.59.57:916][593]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_CityBlock.KA_CityBlock:PersistentLevel.Brush_Street_223.BrushComponent0) Component already registered.
-[2019.01.23-14.59.57:917][593]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_CityBlock.KA_CityBlock:PersistentLevel.Brush_Street_196.BrushComponent0) Component already registered.
-[2019.01.23-14.59.57:917][593]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_CityBlock.KA_CityBlock:PersistentLevel.Brush_Street_197.BrushComponent0) Component already registered.
-[2019.01.23-14.59.57:917][593]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_CityBlock.KA_CityBlock:PersistentLevel.Brush_Street_193.BrushComponent0) Component already registered.
-[2019.01.23-14.59.57:917][593]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_CityBlock.KA_CityBlock:PersistentLevel.Brush_Street_194.BrushComponent0) Component already registered.
-[2019.01.23-14.59.57:918][593]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_CityBlock.KA_CityBlock:PersistentLevel.Brush_Street_251.BrushComponent0) Component already registered.
-[2019.01.23-14.59.57:920][593]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_CityBlock.KA_CityBlock:PersistentLevel.Brush_Street_225.BrushComponent0) Component already registered.
-[2019.01.23-14.59.57:920][593]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_CityBlock.KA_CityBlock:PersistentLevel.Brush_Street_226.BrushComponent0) Component already registered.
-[2019.01.23-14.59.58:455][625]Cmd: TRANSACTION UNDO
-[2019.01.23-14.59.58:455][625]LogEditorTransaction: Undo Set Scale
-[2019.01.23-14.59.58:726][625]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_CityBlock.KA_CityBlock:PersistentLevel.Brush_Street_485.BrushComponent0) Component already registered.
-[2019.01.23-14.59.58:727][625]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_CityBlock.KA_CityBlock:PersistentLevel.Brush_Street_486.BrushComponent0) Component already registered.
-[2019.01.23-14.59.58:728][625]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_CityBlock.KA_CityBlock:PersistentLevel.Brush_Street_456.BrushComponent0) Component already registered.
-[2019.01.23-14.59.58:731][625]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_CityBlock.KA_CityBlock:PersistentLevel.Brush_Street_498.BrushComponent0) Component already registered.
-[2019.01.23-14.59.58:731][625]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_CityBlock.KA_CityBlock:PersistentLevel.Brush_Tower_1.BrushComponent0) Component already registered.
-[2019.01.23-14.59.58:731][625]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_CityBlock.KA_CityBlock:PersistentLevel.Brush_Tower_3.BrushComponent0) Component already registered.
-[2019.01.23-14.59.58:732][625]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_CityBlock.KA_CityBlock:PersistentLevel.Brush_Street_401.BrushComponent0) Component already registered.
-[2019.01.23-14.59.58:732][625]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_CityBlock.KA_CityBlock:PersistentLevel.Brush_Street_402.BrushComponent0) Component already registered.
-[2019.01.23-14.59.58:733][625]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_CityBlock.KA_CityBlock:PersistentLevel.Brush_Street_398.BrushComponent0) Component already registered.
-[2019.01.23-14.59.58:733][625]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_CityBlock.KA_CityBlock:PersistentLevel.Brush_Street_399.BrushComponent0) Component already registered.
-[2019.01.23-14.59.58:734][625]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_CityBlock.KA_CityBlock:PersistentLevel.Brush_Street_489.BrushComponent0) Component already registered.
-[2019.01.23-14.59.58:734][625]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_CityBlock.KA_CityBlock:PersistentLevel.Brush_Street_373.BrushComponent0) Component already registered.
-[2019.01.23-14.59.58:735][625]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_CityBlock.KA_CityBlock:PersistentLevel.Brush_Street_440.BrushComponent0) Component already registered.
-[2019.01.23-14.59.58:736][625]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_CityBlock.KA_CityBlock:PersistentLevel.Brush_Street_427.BrushComponent0) Component already registered.
-[2019.01.23-14.59.58:737][625]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_CityBlock.KA_CityBlock:PersistentLevel.Brush_Street_179.BrushComponent0) Component already registered.
-[2019.01.23-14.59.58:737][625]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_CityBlock.KA_CityBlock:PersistentLevel.Brush_Street_107.BrushComponent0) Component already registered.
-[2019.01.23-14.59.58:739][625]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_CityBlock.KA_CityBlock:PersistentLevel.Brush_Street_103.BrushComponent0) Component already registered.
-[2019.01.23-14.59.58:739][625]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_CityBlock.KA_CityBlock:PersistentLevel.Brush_Street_178.BrushComponent0) Component already registered.
-[2019.01.23-14.59.58:739][625]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_CityBlock.KA_CityBlock:PersistentLevel.Brush_Street_161.BrushComponent0) Component already registered.
-[2019.01.23-14.59.58:740][625]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_CityBlock.KA_CityBlock:PersistentLevel.Brush_Street_162.BrushComponent0) Component already registered.
-[2019.01.23-14.59.58:741][625]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_CityBlock.KA_CityBlock:PersistentLevel.Brush_Street_132.BrushComponent0) Component already registered.
-[2019.01.23-14.59.58:742][625]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_CityBlock.KA_CityBlock:PersistentLevel.Brush_Street_50.BrushComponent0) Component already registered.
-[2019.01.23-14.59.58:742][625]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_CityBlock.KA_CityBlock:PersistentLevel.Brush_Street_23.BrushComponent0) Component already registered.
-[2019.01.23-14.59.58:753][625]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_CityBlock.KA_CityBlock:PersistentLevel.Brush_Street_77.BrushComponent0) Component already registered.
-[2019.01.23-14.59.58:753][625]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_CityBlock.KA_CityBlock:PersistentLevel.Brush_Street_148.BrushComponent0) Component already registered.
-[2019.01.23-14.59.58:753][625]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_CityBlock.KA_CityBlock:PersistentLevel.Brush_Street_137.BrushComponent0) Component already registered.
-[2019.01.23-14.59.58:754][625]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_CityBlock.KA_CityBlock:PersistentLevel.Brush_Street_75.BrushComponent0) Component already registered.
-[2019.01.23-14.59.58:754][625]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_CityBlock.KA_CityBlock:PersistentLevel.Brush_Street_74.BrushComponent0) Component already registered.
-[2019.01.23-14.59.58:755][625]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_CityBlock.KA_CityBlock:PersistentLevel.Brush_Street_104.BrushComponent0) Component already registered.
-[2019.01.23-14.59.58:755][625]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_CityBlock.KA_CityBlock:PersistentLevel.Brush_Street_106.BrushComponent0) Component already registered.
-[2019.01.23-14.59.58:756][625]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_CityBlock.KA_CityBlock:PersistentLevel.Brush_Street_294.BrushComponent0) Component already registered.
-[2019.01.23-14.59.58:758][625]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_CityBlock.KA_CityBlock:PersistentLevel.Brush_Street_268.BrushComponent0) Component already registered.
-[2019.01.23-14.59.58:758][625]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_CityBlock.KA_CityBlock:PersistentLevel.Brush_Street_269.BrushComponent0) Component already registered.
-[2019.01.23-14.59.58:759][625]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_CityBlock.KA_CityBlock:PersistentLevel.Brush_Street_349.BrushComponent0) Component already registered.
-[2019.01.23-14.59.58:759][625]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_CityBlock.KA_CityBlock:PersistentLevel.Brush_Street_350.BrushComponent0) Component already registered.
-[2019.01.23-14.59.58:760][625]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_CityBlock.KA_CityBlock:PersistentLevel.Brush_Street_323.BrushComponent0) Component already registered.
-[2019.01.23-14.59.58:760][625]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_CityBlock.KA_CityBlock:PersistentLevel.Brush_Street_441.BrushComponent0) Component already registered.
-[2019.01.23-14.59.58:761][625]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_CityBlock.KA_CityBlock:PersistentLevel.Brush_Street_216.BrushComponent0) Component already registered.
-[2019.01.23-14.59.58:761][625]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_CityBlock.KA_CityBlock:PersistentLevel.Brush_Street_217.BrushComponent0) Component already registered.
-[2019.01.23-14.59.58:762][625]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_CityBlock.KA_CityBlock:PersistentLevel.Brush_Street_213.BrushComponent0) Component already registered.
-[2019.01.23-14.59.58:762][625]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_CityBlock.KA_CityBlock:PersistentLevel.Brush_Street_214.BrushComponent0) Component already registered.
-[2019.01.23-14.59.58:762][625]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_CityBlock.KA_CityBlock:PersistentLevel.Brush_Street_184.BrushComponent0) Component already registered.
-[2019.01.23-14.59.58:762][625]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_CityBlock.KA_CityBlock:PersistentLevel.Brush_Street_185.BrushComponent0) Component already registered.
-[2019.01.23-14.59.58:763][625]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_CityBlock.KA_CityBlock:PersistentLevel.Brush_Street_187.BrushComponent0) Component already registered.
-[2019.01.23-14.59.58:763][625]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_CityBlock.KA_CityBlock:PersistentLevel.Brush_Street_188.BrushComponent0) Component already registered.
-[2019.01.23-14.59.58:764][625]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_CityBlock.KA_CityBlock:PersistentLevel.Brush_Street_265.BrushComponent0) Component already registered.
-[2019.01.23-14.59.58:764][625]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_CityBlock.KA_CityBlock:PersistentLevel.Brush_Street_266.BrushComponent0) Component already registered.
-[2019.01.23-14.59.58:765][625]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_CityBlock.KA_CityBlock:PersistentLevel.Brush_Street_239.BrushComponent0) Component already registered.
-[2019.01.23-14.59.58:765][625]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_CityBlock.KA_CityBlock:PersistentLevel.Brush_Street_240.BrushComponent0) Component already registered.
-[2019.01.23-14.59.58:766][625]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_CityBlock.KA_CityBlock:PersistentLevel.Brush_Street_236.BrushComponent0) Component already registered.
-[2019.01.23-14.59.58:766][625]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_CityBlock.KA_CityBlock:PersistentLevel.Brush_Street_237.BrushComponent0) Component already registered.
-[2019.01.23-14.59.59:609][692]Cmd: TRANSACTION UNDO
-[2019.01.23-14.59.59:609][692]LogEditorTransaction: Undo Set Scale
-[2019.01.23-14.59.59:894][692]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_CityBlock.KA_CityBlock:PersistentLevel.Brush_Street_485.BrushComponent0) Component already registered.
-[2019.01.23-14.59.59:895][692]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_CityBlock.KA_CityBlock:PersistentLevel.Brush_Street_486.BrushComponent0) Component already registered.
-[2019.01.23-14.59.59:896][692]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_CityBlock.KA_CityBlock:PersistentLevel.Brush_Street_456.BrushComponent0) Component already registered.
-[2019.01.23-14.59.59:899][692]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_CityBlock.KA_CityBlock:PersistentLevel.Brush_Street_498.BrushComponent0) Component already registered.
-[2019.01.23-14.59.59:900][692]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_CityBlock.KA_CityBlock:PersistentLevel.Brush_Tower_1.BrushComponent0) Component already registered.
-[2019.01.23-14.59.59:900][692]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_CityBlock.KA_CityBlock:PersistentLevel.Brush_Tower_3.BrushComponent0) Component already registered.
-[2019.01.23-14.59.59:901][692]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_CityBlock.KA_CityBlock:PersistentLevel.Brush_Street_401.BrushComponent0) Component already registered.
-[2019.01.23-14.59.59:901][692]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_CityBlock.KA_CityBlock:PersistentLevel.Brush_Street_402.BrushComponent0) Component already registered.
-[2019.01.23-14.59.59:901][692]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_CityBlock.KA_CityBlock:PersistentLevel.Brush_Street_398.BrushComponent0) Component already registered.
-[2019.01.23-14.59.59:901][692]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_CityBlock.KA_CityBlock:PersistentLevel.Brush_Street_399.BrushComponent0) Component already registered.
-[2019.01.23-14.59.59:902][692]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_CityBlock.KA_CityBlock:PersistentLevel.Brush_Street_489.BrushComponent0) Component already registered.
-[2019.01.23-14.59.59:902][692]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_CityBlock.KA_CityBlock:PersistentLevel.Brush_Street_373.BrushComponent0) Component already registered.
-[2019.01.23-14.59.59:903][692]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_CityBlock.KA_CityBlock:PersistentLevel.Brush_Street_440.BrushComponent0) Component already registered.
-[2019.01.23-14.59.59:904][692]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_CityBlock.KA_CityBlock:PersistentLevel.Brush_Street_427.BrushComponent0) Component already registered.
-[2019.01.23-14.59.59:905][692]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_CityBlock.KA_CityBlock:PersistentLevel.Brush_Street_179.BrushComponent0) Component already registered.
-[2019.01.23-14.59.59:905][692]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_CityBlock.KA_CityBlock:PersistentLevel.Brush_Street_107.BrushComponent0) Component already registered.
-[2019.01.23-14.59.59:907][692]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_CityBlock.KA_CityBlock:PersistentLevel.Brush_Street_103.BrushComponent0) Component already registered.
-[2019.01.23-14.59.59:907][692]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_CityBlock.KA_CityBlock:PersistentLevel.Brush_Street_178.BrushComponent0) Component already registered.
-[2019.01.23-14.59.59:907][692]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_CityBlock.KA_CityBlock:PersistentLevel.Brush_Street_161.BrushComponent0) Component already registered.
-[2019.01.23-14.59.59:907][692]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_CityBlock.KA_CityBlock:PersistentLevel.Brush_Street_162.BrushComponent0) Component already registered.
-[2019.01.23-14.59.59:909][692]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_CityBlock.KA_CityBlock:PersistentLevel.Brush_Street_132.BrushComponent0) Component already registered.
-[2019.01.23-14.59.59:909][692]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_CityBlock.KA_CityBlock:PersistentLevel.Brush_Street_50.BrushComponent0) Component already registered.
-[2019.01.23-14.59.59:910][692]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_CityBlock.KA_CityBlock:PersistentLevel.Brush_Street_23.BrushComponent0) Component already registered.
-[2019.01.23-14.59.59:923][692]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_CityBlock.KA_CityBlock:PersistentLevel.Brush_Street_77.BrushComponent0) Component already registered.
-[2019.01.23-14.59.59:923][692]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_CityBlock.KA_CityBlock:PersistentLevel.Brush_Street_148.BrushComponent0) Component already registered.
-[2019.01.23-14.59.59:924][692]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_CityBlock.KA_CityBlock:PersistentLevel.Brush_Street_137.BrushComponent0) Component already registered.
-[2019.01.23-14.59.59:924][692]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_CityBlock.KA_CityBlock:PersistentLevel.Brush_Street_75.BrushComponent0) Component already registered.
-[2019.01.23-14.59.59:924][692]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_CityBlock.KA_CityBlock:PersistentLevel.Brush_Street_74.BrushComponent0) Component already registered.
-[2019.01.23-14.59.59:925][692]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_CityBlock.KA_CityBlock:PersistentLevel.Brush_Street_104.BrushComponent0) Component already registered.
-[2019.01.23-14.59.59:925][692]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_CityBlock.KA_CityBlock:PersistentLevel.Brush_Street_106.BrushComponent0) Component already registered.
-[2019.01.23-14.59.59:926][692]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_CityBlock.KA_CityBlock:PersistentLevel.Brush_Street_294.BrushComponent0) Component already registered.
-[2019.01.23-14.59.59:927][692]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_CityBlock.KA_CityBlock:PersistentLevel.Brush_Street_268.BrushComponent0) Component already registered.
-[2019.01.23-14.59.59:927][692]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_CityBlock.KA_CityBlock:PersistentLevel.Brush_Street_269.BrushComponent0) Component already registered.
-[2019.01.23-14.59.59:930][692]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_CityBlock.KA_CityBlock:PersistentLevel.Brush_Street_349.BrushComponent0) Component already registered.
-[2019.01.23-14.59.59:930][692]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_CityBlock.KA_CityBlock:PersistentLevel.Brush_Street_350.BrushComponent0) Component already registered.
-[2019.01.23-14.59.59:931][692]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_CityBlock.KA_CityBlock:PersistentLevel.Brush_Street_323.BrushComponent0) Component already registered.
-[2019.01.23-14.59.59:931][692]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_CityBlock.KA_CityBlock:PersistentLevel.Brush_Street_441.BrushComponent0) Component already registered.
-[2019.01.23-14.59.59:933][692]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_CityBlock.KA_CityBlock:PersistentLevel.Brush_Street_216.BrushComponent0) Component already registered.
-[2019.01.23-14.59.59:933][692]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_CityBlock.KA_CityBlock:PersistentLevel.Brush_Street_217.BrushComponent0) Component already registered.
-[2019.01.23-14.59.59:933][692]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_CityBlock.KA_CityBlock:PersistentLevel.Brush_Street_213.BrushComponent0) Component already registered.
-[2019.01.23-14.59.59:933][692]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_CityBlock.KA_CityBlock:PersistentLevel.Brush_Street_214.BrushComponent0) Component already registered.
-[2019.01.23-14.59.59:934][692]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_CityBlock.KA_CityBlock:PersistentLevel.Brush_Street_184.BrushComponent0) Component already registered.
-[2019.01.23-14.59.59:934][692]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_CityBlock.KA_CityBlock:PersistentLevel.Brush_Street_185.BrushComponent0) Component already registered.
-[2019.01.23-14.59.59:936][692]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_CityBlock.KA_CityBlock:PersistentLevel.Brush_Street_187.BrushComponent0) Component already registered.
-[2019.01.23-14.59.59:936][692]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_CityBlock.KA_CityBlock:PersistentLevel.Brush_Street_188.BrushComponent0) Component already registered.
-[2019.01.23-14.59.59:938][692]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_CityBlock.KA_CityBlock:PersistentLevel.Brush_Street_265.BrushComponent0) Component already registered.
-[2019.01.23-14.59.59:938][692]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_CityBlock.KA_CityBlock:PersistentLevel.Brush_Street_266.BrushComponent0) Component already registered.
-[2019.01.23-14.59.59:940][692]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_CityBlock.KA_CityBlock:PersistentLevel.Brush_Street_239.BrushComponent0) Component already registered.
-[2019.01.23-14.59.59:940][692]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_CityBlock.KA_CityBlock:PersistentLevel.Brush_Street_240.BrushComponent0) Component already registered.
-[2019.01.23-14.59.59:941][692]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_CityBlock.KA_CityBlock:PersistentLevel.Brush_Street_236.BrushComponent0) Component already registered.
-[2019.01.23-14.59.59:941][692]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_CityBlock.KA_CityBlock:PersistentLevel.Brush_Street_237.BrushComponent0) Component already registered.
-[2019.01.23-15.00.00:802][766]Cmd: TRANSACTION UNDO
-[2019.01.23-15.00.00:802][766]LogEditorTransaction: Undo Set Scale
-[2019.01.23-15.00.01:085][766]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_CityBlock.KA_CityBlock:PersistentLevel.Brush_Street_485.BrushComponent0) Component already registered.
-[2019.01.23-15.00.01:085][766]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_CityBlock.KA_CityBlock:PersistentLevel.Brush_Street_486.BrushComponent0) Component already registered.
-[2019.01.23-15.00.01:087][766]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_CityBlock.KA_CityBlock:PersistentLevel.Brush_Street_456.BrushComponent0) Component already registered.
-[2019.01.23-15.00.01:090][766]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_CityBlock.KA_CityBlock:PersistentLevel.Brush_Street_498.BrushComponent0) Component already registered.
-[2019.01.23-15.00.01:090][766]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_CityBlock.KA_CityBlock:PersistentLevel.Brush_Tower_1.BrushComponent0) Component already registered.
-[2019.01.23-15.00.01:090][766]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_CityBlock.KA_CityBlock:PersistentLevel.Brush_Tower_3.BrushComponent0) Component already registered.
-[2019.01.23-15.00.01:091][766]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_CityBlock.KA_CityBlock:PersistentLevel.Brush_Street_401.BrushComponent0) Component already registered.
-[2019.01.23-15.00.01:091][766]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_CityBlock.KA_CityBlock:PersistentLevel.Brush_Street_402.BrushComponent0) Component already registered.
-[2019.01.23-15.00.01:092][766]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_CityBlock.KA_CityBlock:PersistentLevel.Brush_Street_398.BrushComponent0) Component already registered.
-[2019.01.23-15.00.01:092][766]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_CityBlock.KA_CityBlock:PersistentLevel.Brush_Street_399.BrushComponent0) Component already registered.
-[2019.01.23-15.00.01:093][766]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_CityBlock.KA_CityBlock:PersistentLevel.Brush_Street_489.BrushComponent0) Component already registered.
-[2019.01.23-15.00.01:093][766]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_CityBlock.KA_CityBlock:PersistentLevel.Brush_Street_373.BrushComponent0) Component already registered.
-[2019.01.23-15.00.01:095][766]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_CityBlock.KA_CityBlock:PersistentLevel.Brush_Street_440.BrushComponent0) Component already registered.
-[2019.01.23-15.00.01:096][766]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_CityBlock.KA_CityBlock:PersistentLevel.Brush_Street_427.BrushComponent0) Component already registered.
-[2019.01.23-15.00.01:097][766]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_CityBlock.KA_CityBlock:PersistentLevel.Brush_Street_179.BrushComponent0) Component already registered.
-[2019.01.23-15.00.01:097][766]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_CityBlock.KA_CityBlock:PersistentLevel.Brush_Street_107.BrushComponent0) Component already registered.
-[2019.01.23-15.00.01:099][766]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_CityBlock.KA_CityBlock:PersistentLevel.Brush_Street_103.BrushComponent0) Component already registered.
-[2019.01.23-15.00.01:099][766]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_CityBlock.KA_CityBlock:PersistentLevel.Brush_Street_178.BrushComponent0) Component already registered.
-[2019.01.23-15.00.01:099][766]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_CityBlock.KA_CityBlock:PersistentLevel.Brush_Street_161.BrushComponent0) Component already registered.
-[2019.01.23-15.00.01:099][766]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_CityBlock.KA_CityBlock:PersistentLevel.Brush_Street_162.BrushComponent0) Component already registered.
-[2019.01.23-15.00.01:101][766]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_CityBlock.KA_CityBlock:PersistentLevel.Brush_Street_132.BrushComponent0) Component already registered.
-[2019.01.23-15.00.01:101][766]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_CityBlock.KA_CityBlock:PersistentLevel.Brush_Street_50.BrushComponent0) Component already registered.
-[2019.01.23-15.00.01:101][766]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_CityBlock.KA_CityBlock:PersistentLevel.Brush_Street_23.BrushComponent0) Component already registered.
-[2019.01.23-15.00.01:112][766]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_CityBlock.KA_CityBlock:PersistentLevel.Brush_Street_77.BrushComponent0) Component already registered.
-[2019.01.23-15.00.01:112][766]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_CityBlock.KA_CityBlock:PersistentLevel.Brush_Street_148.BrushComponent0) Component already registered.
-[2019.01.23-15.00.01:113][766]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_CityBlock.KA_CityBlock:PersistentLevel.Brush_Street_137.BrushComponent0) Component already registered.
-[2019.01.23-15.00.01:113][766]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_CityBlock.KA_CityBlock:PersistentLevel.Brush_Street_75.BrushComponent0) Component already registered.
-[2019.01.23-15.00.01:114][766]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_CityBlock.KA_CityBlock:PersistentLevel.Brush_Street_74.BrushComponent0) Component already registered.
-[2019.01.23-15.00.01:115][766]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_CityBlock.KA_CityBlock:PersistentLevel.Brush_Street_104.BrushComponent0) Component already registered.
-[2019.01.23-15.00.01:115][766]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_CityBlock.KA_CityBlock:PersistentLevel.Brush_Street_106.BrushComponent0) Component already registered.
-[2019.01.23-15.00.01:115][766]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_CityBlock.KA_CityBlock:PersistentLevel.Brush_Street_294.BrushComponent0) Component already registered.
-[2019.01.23-15.00.01:116][766]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_CityBlock.KA_CityBlock:PersistentLevel.Brush_Street_268.BrushComponent0) Component already registered.
-[2019.01.23-15.00.01:117][766]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_CityBlock.KA_CityBlock:PersistentLevel.Brush_Street_269.BrushComponent0) Component already registered.
-[2019.01.23-15.00.01:121][766]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_CityBlock.KA_CityBlock:PersistentLevel.Brush_Street_349.BrushComponent0) Component already registered.
-[2019.01.23-15.00.01:121][766]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_CityBlock.KA_CityBlock:PersistentLevel.Brush_Street_350.BrushComponent0) Component already registered.
-[2019.01.23-15.00.01:121][766]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_CityBlock.KA_CityBlock:PersistentLevel.Brush_Street_323.BrushComponent0) Component already registered.
-[2019.01.23-15.00.01:122][766]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_CityBlock.KA_CityBlock:PersistentLevel.Brush_Street_441.BrushComponent0) Component already registered.
-[2019.01.23-15.00.01:125][766]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_CityBlock.KA_CityBlock:PersistentLevel.Brush_Street_216.BrushComponent0) Component already registered.
-[2019.01.23-15.00.01:125][766]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_CityBlock.KA_CityBlock:PersistentLevel.Brush_Street_217.BrushComponent0) Component already registered.
-[2019.01.23-15.00.01:125][766]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_CityBlock.KA_CityBlock:PersistentLevel.Brush_Street_213.BrushComponent0) Component already registered.
-[2019.01.23-15.00.01:125][766]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_CityBlock.KA_CityBlock:PersistentLevel.Brush_Street_214.BrushComponent0) Component already registered.
-[2019.01.23-15.00.01:126][766]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_CityBlock.KA_CityBlock:PersistentLevel.Brush_Street_184.BrushComponent0) Component already registered.
-[2019.01.23-15.00.01:126][766]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_CityBlock.KA_CityBlock:PersistentLevel.Brush_Street_185.BrushComponent0) Component already registered.
-[2019.01.23-15.00.01:127][766]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_CityBlock.KA_CityBlock:PersistentLevel.Brush_Street_187.BrushComponent0) Component already registered.
-[2019.01.23-15.00.01:127][766]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_CityBlock.KA_CityBlock:PersistentLevel.Brush_Street_188.BrushComponent0) Component already registered.
-[2019.01.23-15.00.01:128][766]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_CityBlock.KA_CityBlock:PersistentLevel.Brush_Street_265.BrushComponent0) Component already registered.
-[2019.01.23-15.00.01:129][766]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_CityBlock.KA_CityBlock:PersistentLevel.Brush_Street_266.BrushComponent0) Component already registered.
-[2019.01.23-15.00.01:130][766]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_CityBlock.KA_CityBlock:PersistentLevel.Brush_Street_239.BrushComponent0) Component already registered.
-[2019.01.23-15.00.01:130][766]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_CityBlock.KA_CityBlock:PersistentLevel.Brush_Street_240.BrushComponent0) Component already registered.
-[2019.01.23-15.00.01:130][766]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_CityBlock.KA_CityBlock:PersistentLevel.Brush_Street_236.BrushComponent0) Component already registered.
-[2019.01.23-15.00.01:130][766]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_CityBlock.KA_CityBlock:PersistentLevel.Brush_Street_237.BrushComponent0) Component already registered.
-[2019.01.23-15.00.05:657][243]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.01.23-15.00.21:295][ 25]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.01.23-15.00.42:978][428]Cmd: TRANSACTION UNDO
-[2019.01.23-15.00.42:978][428]LogEditorTransaction: Undo Select Brush Surface
-[2019.01.23-15.00.44:187][495]Cmd: TRANSACTION UNDO
-[2019.01.23-15.00.44:187][495]LogEditorTransaction: Undo Select Brush Surface
-[2019.01.23-15.00.44:864][541]Cmd: TRANSACTION UNDO
-[2019.01.23-15.00.44:864][541]LogEditorTransaction: Undo Edit Y
-[2019.01.23-15.00.45:053][541]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_CityBlock.KA_CityBlock:PersistentLevel.Brush_Street_175.BrushComponent0) Component already registered.
-[2019.01.23-15.00.45:054][541]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_CityBlock.KA_CityBlock:PersistentLevel.Brush_Street_167.BrushComponent0) Component already registered.
-[2019.01.23-15.00.45:055][541]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_CityBlock.KA_CityBlock:PersistentLevel.Brush_Street_212.BrushComponent0) Component already registered.
-[2019.01.23-15.00.45:055][541]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_CityBlock.KA_CityBlock:PersistentLevel.Brush_Street_158.BrushComponent0) Component already registered.
-[2019.01.23-15.00.45:057][541]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_CityBlock.KA_CityBlock:PersistentLevel.Brush_Street_150.BrushComponent0) Component already registered.
-[2019.01.23-15.00.45:057][541]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_CityBlock.KA_CityBlock:PersistentLevel.Brush_Street_244.BrushComponent0) Component already registered.
-[2019.01.23-15.00.45:058][541]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_CityBlock.KA_CityBlock:PersistentLevel.Brush_Street_261.BrushComponent0) Component already registered.
-[2019.01.23-15.00.45:058][541]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_CityBlock.KA_CityBlock:PersistentLevel.Brush_Street_252.BrushComponent0) Component already registered.
-[2019.01.23-15.00.45:060][541]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_CityBlock.KA_CityBlock:PersistentLevel.Brush_Street_214.BrushComponent0) Component already registered.
-[2019.01.23-15.00.45:062][541]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_CityBlock.KA_CityBlock:PersistentLevel.Brush_Street_48.BrushComponent0) Component already registered.
-[2019.01.23-15.00.45:073][541]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_CityBlock.KA_CityBlock:PersistentLevel.Brush_Street_111.BrushComponent0) Component already registered.
-[2019.01.23-15.00.45:074][541]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_CityBlock.KA_CityBlock:PersistentLevel.Brush_Street_120.BrushComponent0) Component already registered.
-[2019.01.23-15.00.45:075][541]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_CityBlock.KA_CityBlock:PersistentLevel.Brush_Street_73.BrushComponent0) Component already registered.
-[2019.01.23-15.00.45:075][541]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_CityBlock.KA_CityBlock:PersistentLevel.Brush_Street_125.BrushComponent0) Component already registered.
-[2019.01.23-15.00.45:076][541]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_CityBlock.KA_CityBlock:PersistentLevel.Brush_Street_81.BrushComponent0) Component already registered.
-[2019.01.23-15.00.45:076][541]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_CityBlock.KA_CityBlock:PersistentLevel.Brush_Street_449.BrushComponent0) Component already registered.
-[2019.01.23-15.00.45:078][541]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_CityBlock.KA_CityBlock:PersistentLevel.Brush_Street_466.BrushComponent0) Component already registered.
-[2019.01.23-15.00.45:078][541]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_CityBlock.KA_CityBlock:PersistentLevel.Brush_Street_457.BrushComponent0) Component already registered.
-[2019.01.23-15.00.45:079][541]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_CityBlock.KA_CityBlock:PersistentLevel.Brush_Street_536.BrushComponent0) Component already registered.
-[2019.01.23-15.00.45:080][541]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_CityBlock.KA_CityBlock:PersistentLevel.Brush_Tower_12.BrushComponent0) Component already registered.
-[2019.01.23-15.00.45:082][541]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_CityBlock.KA_CityBlock:PersistentLevel.Brush_Street_474.BrushComponent0) Component already registered.
-[2019.01.23-15.00.45:083][541]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_CityBlock.KA_CityBlock:PersistentLevel.Brush_Street_500.BrushComponent0) Component already registered.
-[2019.01.23-15.00.45:083][541]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_CityBlock.KA_CityBlock:PersistentLevel.Brush_Street_491.BrushComponent0) Component already registered.
-[2019.01.23-15.00.45:084][541]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_CityBlock.KA_CityBlock:PersistentLevel.Brush_Street_316.BrushComponent0) Component already registered.
-[2019.01.23-15.00.45:085][541]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_CityBlock.KA_CityBlock:PersistentLevel.Brush_Street_333.BrushComponent0) Component already registered.
-[2019.01.23-15.00.45:085][541]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_CityBlock.KA_CityBlock:PersistentLevel.Brush_Street_269.BrushComponent0) Component already registered.
-[2019.01.23-15.00.45:086][541]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_CityBlock.KA_CityBlock:PersistentLevel.Brush_Street_295.BrushComponent0) Component already registered.
-[2019.01.23-15.00.45:086][541]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_CityBlock.KA_CityBlock:PersistentLevel.Brush_Street_286.BrushComponent0) Component already registered.
-[2019.01.23-15.00.45:087][541]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_CityBlock.KA_CityBlock:PersistentLevel.Brush_Street_380.BrushComponent0) Component already registered.
-[2019.01.23-15.00.45:087][541]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_CityBlock.KA_CityBlock:PersistentLevel.Brush_Street_489.BrushComponent0) Component already registered.
-[2019.01.23-15.00.45:087][541]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_CityBlock.KA_CityBlock:PersistentLevel.Brush_Street_397.BrushComponent0) Component already registered.
-[2019.01.23-15.00.45:088][541]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_CityBlock.KA_CityBlock:PersistentLevel.Brush_Street_389.BrushComponent0) Component already registered.
-[2019.01.23-15.00.45:088][541]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_CityBlock.KA_CityBlock:PersistentLevel.Brush_Street_342.BrushComponent0) Component already registered.
-[2019.01.23-15.00.45:089][541]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_CityBlock.KA_CityBlock:PersistentLevel.Brush_Street_359.BrushComponent0) Component already registered.
-[2019.01.23-15.01.12:754][648]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.01.23-15.01.37:729][326]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
-[2019.01.23-15.01.38:365][397]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
-[2019.01.23-15.01.40:559][647]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.01.23-15.01.47:429][405]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.01.23-15.01.53:094][ 24]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.01.23-15.01.57:303][469]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.01.23-15.02.53:781][ 94]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.01.23-15.03.09:815][812]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
-[2019.01.23-15.03.11:587][ 17]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
-[2019.01.23-15.03.15:147][425]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.01.23-15.03.28:131][820]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.01.23-15.03.51:422][545]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.01.23-15.04.24:977][170]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.01.23-15.05.06:417][809]Cmd: TRANSACTION UNDO
-[2019.01.23-15.05.06:417][809]LogEditorTransaction: Undo Move Actors
-[2019.01.23-15.05.06:592][809]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_CityBlock.KA_CityBlock:PersistentLevel.Brush_Street_175.BrushComponent0) Component already registered.
-[2019.01.23-15.05.06:593][809]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_CityBlock.KA_CityBlock:PersistentLevel.Brush_Street_167.BrushComponent0) Component already registered.
-[2019.01.23-15.05.06:593][809]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_CityBlock.KA_CityBlock:PersistentLevel.Brush_Street_192.BrushComponent0) Component already registered.
-[2019.01.23-15.05.06:594][809]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_CityBlock.KA_CityBlock:PersistentLevel.Brush_Street_184.BrushComponent0) Component already registered.
-[2019.01.23-15.05.06:595][809]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_CityBlock.KA_CityBlock:PersistentLevel.Brush_Street_212.BrushComponent0) Component already registered.
-[2019.01.23-15.05.06:596][809]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_CityBlock.KA_CityBlock:PersistentLevel.Brush_Street_154.BrushComponent0) Component already registered.
-[2019.01.23-15.05.06:599][809]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_CityBlock.KA_CityBlock:PersistentLevel.Brush_Street_252.BrushComponent0) Component already registered.
-[2019.01.23-15.05.06:603][809]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_CityBlock.KA_CityBlock:PersistentLevel.Brush_Street_30.BrushComponent0) Component already registered.
-[2019.01.23-15.05.06:604][809]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_CityBlock.KA_CityBlock:PersistentLevel.Brush_Street_56.BrushComponent0) Component already registered.
-[2019.01.23-15.05.06:604][809]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_CityBlock.KA_CityBlock:PersistentLevel.Brush_Street_48.BrushComponent0) Component already registered.
-[2019.01.23-15.05.06:616][809]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_CityBlock.KA_CityBlock:PersistentLevel.Brush_Street_13.BrushComponent0) Component already registered.
-[2019.01.23-15.05.06:617][809]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_CityBlock.KA_CityBlock:PersistentLevel.Brush_Street_111.BrushComponent0) Component already registered.
-[2019.01.23-15.05.06:618][809]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_CityBlock.KA_CityBlock:PersistentLevel.Brush_Street_120.BrushComponent0) Component already registered.
-[2019.01.23-15.05.06:619][809]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_CityBlock.KA_CityBlock:PersistentLevel.Brush_Street_73.BrushComponent0) Component already registered.
-[2019.01.23-15.05.06:619][809]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_CityBlock.KA_CityBlock:PersistentLevel.Brush_Street_125.BrushComponent0) Component already registered.
-[2019.01.23-15.05.06:620][809]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_CityBlock.KA_CityBlock:PersistentLevel.Brush_Street_81.BrushComponent0) Component already registered.
-[2019.01.23-15.05.06:620][809]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_CityBlock.KA_CityBlock:PersistentLevel.Brush_Street_449.BrushComponent0) Component already registered.
-[2019.01.23-15.05.06:621][809]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_CityBlock.KA_CityBlock:PersistentLevel.Brush_Street_466.BrushComponent0) Component already registered.
-[2019.01.23-15.05.06:621][809]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_CityBlock.KA_CityBlock:PersistentLevel.Brush_Street_457.BrushComponent0) Component already registered.
-[2019.01.23-15.05.06:623][809]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_CityBlock.KA_CityBlock:PersistentLevel.Brush_Street_536.BrushComponent0) Component already registered.
-[2019.01.23-15.05.06:624][809]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_CityBlock.KA_CityBlock:PersistentLevel.Brush_Tower_12.BrushComponent0) Component already registered.
-[2019.01.23-15.05.06:626][809]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_CityBlock.KA_CityBlock:PersistentLevel.Brush_Street_474.BrushComponent0) Component already registered.
-[2019.01.23-15.05.06:626][809]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_CityBlock.KA_CityBlock:PersistentLevel.Brush_Street_500.BrushComponent0) Component already registered.
-[2019.01.23-15.05.06:626][809]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_CityBlock.KA_CityBlock:PersistentLevel.Brush_Street_491.BrushComponent0) Component already registered.
-[2019.01.23-15.05.06:627][809]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_CityBlock.KA_CityBlock:PersistentLevel.Brush_Street_316.BrushComponent0) Component already registered.
-[2019.01.23-15.05.06:628][809]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_CityBlock.KA_CityBlock:PersistentLevel.Brush_Street_333.BrushComponent0) Component already registered.
-[2019.01.23-15.05.06:629][809]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_CityBlock.KA_CityBlock:PersistentLevel.Brush_Street_269.BrushComponent0) Component already registered.
-[2019.01.23-15.05.06:630][809]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_CityBlock.KA_CityBlock:PersistentLevel.Brush_Street_295.BrushComponent0) Component already registered.
-[2019.01.23-15.05.06:630][809]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_CityBlock.KA_CityBlock:PersistentLevel.Brush_Street_286.BrushComponent0) Component already registered.
-[2019.01.23-15.05.06:630][809]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_CityBlock.KA_CityBlock:PersistentLevel.Brush_Street_380.BrushComponent0) Component already registered.
-[2019.01.23-15.05.06:631][809]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_CityBlock.KA_CityBlock:PersistentLevel.Brush_Street_489.BrushComponent0) Component already registered.
-[2019.01.23-15.05.06:631][809]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_CityBlock.KA_CityBlock:PersistentLevel.Brush_Street_397.BrushComponent0) Component already registered.
-[2019.01.23-15.05.06:632][809]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_CityBlock.KA_CityBlock:PersistentLevel.Brush_Street_389.BrushComponent0) Component already registered.
-[2019.01.23-15.05.06:632][809]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_CityBlock.KA_CityBlock:PersistentLevel.Brush_Street_342.BrushComponent0) Component already registered.
-[2019.01.23-15.05.06:633][809]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_CityBlock.KA_CityBlock:PersistentLevel.Brush_Street_359.BrushComponent0) Component already registered.
-[2019.01.23-15.05.07:177][851]Cmd: TRANSACTION UNDO
-[2019.01.23-15.05.07:177][851]LogEditorTransaction: Undo Move Actors
-[2019.01.23-15.05.07:362][851]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_CityBlock.KA_CityBlock:PersistentLevel.Brush_Street_175.BrushComponent0) Component already registered.
-[2019.01.23-15.05.07:362][851]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_CityBlock.KA_CityBlock:PersistentLevel.Brush_Street_167.BrushComponent0) Component already registered.
-[2019.01.23-15.05.07:362][851]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_CityBlock.KA_CityBlock:PersistentLevel.Brush_Street_192.BrushComponent0) Component already registered.
-[2019.01.23-15.05.07:363][851]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_CityBlock.KA_CityBlock:PersistentLevel.Brush_Street_184.BrushComponent0) Component already registered.
-[2019.01.23-15.05.07:363][851]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_CityBlock.KA_CityBlock:PersistentLevel.Brush_Street_212.BrushComponent0) Component already registered.
-[2019.01.23-15.05.07:364][851]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_CityBlock.KA_CityBlock:PersistentLevel.Brush_Street_154.BrushComponent0) Component already registered.
-[2019.01.23-15.05.07:366][851]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_CityBlock.KA_CityBlock:PersistentLevel.Brush_Street_252.BrushComponent0) Component already registered.
-[2019.01.23-15.05.07:369][851]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_CityBlock.KA_CityBlock:PersistentLevel.Brush_Street_30.BrushComponent0) Component already registered.
-[2019.01.23-15.05.07:370][851]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_CityBlock.KA_CityBlock:PersistentLevel.Brush_Street_56.BrushComponent0) Component already registered.
-[2019.01.23-15.05.07:370][851]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_CityBlock.KA_CityBlock:PersistentLevel.Brush_Street_48.BrushComponent0) Component already registered.
-[2019.01.23-15.05.07:381][851]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_CityBlock.KA_CityBlock:PersistentLevel.Brush_Street_13.BrushComponent0) Component already registered.
-[2019.01.23-15.05.07:382][851]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_CityBlock.KA_CityBlock:PersistentLevel.Brush_Street_111.BrushComponent0) Component already registered.
-[2019.01.23-15.05.07:382][851]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_CityBlock.KA_CityBlock:PersistentLevel.Brush_Street_120.BrushComponent0) Component already registered.
-[2019.01.23-15.05.07:383][851]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_CityBlock.KA_CityBlock:PersistentLevel.Brush_Street_73.BrushComponent0) Component already registered.
-[2019.01.23-15.05.07:384][851]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_CityBlock.KA_CityBlock:PersistentLevel.Brush_Street_125.BrushComponent0) Component already registered.
-[2019.01.23-15.05.07:384][851]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_CityBlock.KA_CityBlock:PersistentLevel.Brush_Street_81.BrushComponent0) Component already registered.
-[2019.01.23-15.05.07:385][851]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_CityBlock.KA_CityBlock:PersistentLevel.Brush_Street_449.BrushComponent0) Component already registered.
-[2019.01.23-15.05.07:386][851]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_CityBlock.KA_CityBlock:PersistentLevel.Brush_Street_466.BrushComponent0) Component already registered.
-[2019.01.23-15.05.07:386][851]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_CityBlock.KA_CityBlock:PersistentLevel.Brush_Street_457.BrushComponent0) Component already registered.
-[2019.01.23-15.05.07:388][851]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_CityBlock.KA_CityBlock:PersistentLevel.Brush_Street_536.BrushComponent0) Component already registered.
-[2019.01.23-15.05.07:389][851]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_CityBlock.KA_CityBlock:PersistentLevel.Brush_Tower_12.BrushComponent0) Component already registered.
-[2019.01.23-15.05.07:390][851]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_CityBlock.KA_CityBlock:PersistentLevel.Brush_Street_474.BrushComponent0) Component already registered.
-[2019.01.23-15.05.07:391][851]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_CityBlock.KA_CityBlock:PersistentLevel.Brush_Street_500.BrushComponent0) Component already registered.
-[2019.01.23-15.05.07:392][851]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_CityBlock.KA_CityBlock:PersistentLevel.Brush_Street_491.BrushComponent0) Component already registered.
-[2019.01.23-15.05.07:393][851]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_CityBlock.KA_CityBlock:PersistentLevel.Brush_Street_316.BrushComponent0) Component already registered.
-[2019.01.23-15.05.07:394][851]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_CityBlock.KA_CityBlock:PersistentLevel.Brush_Street_333.BrushComponent0) Component already registered.
-[2019.01.23-15.05.07:394][851]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_CityBlock.KA_CityBlock:PersistentLevel.Brush_Street_269.BrushComponent0) Component already registered.
-[2019.01.23-15.05.07:395][851]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_CityBlock.KA_CityBlock:PersistentLevel.Brush_Street_295.BrushComponent0) Component already registered.
-[2019.01.23-15.05.07:395][851]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_CityBlock.KA_CityBlock:PersistentLevel.Brush_Street_286.BrushComponent0) Component already registered.
-[2019.01.23-15.05.07:396][851]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_CityBlock.KA_CityBlock:PersistentLevel.Brush_Street_380.BrushComponent0) Component already registered.
-[2019.01.23-15.05.07:396][851]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_CityBlock.KA_CityBlock:PersistentLevel.Brush_Street_489.BrushComponent0) Component already registered.
-[2019.01.23-15.05.07:396][851]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_CityBlock.KA_CityBlock:PersistentLevel.Brush_Street_397.BrushComponent0) Component already registered.
-[2019.01.23-15.05.07:397][851]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_CityBlock.KA_CityBlock:PersistentLevel.Brush_Street_389.BrushComponent0) Component already registered.
-[2019.01.23-15.05.07:397][851]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_CityBlock.KA_CityBlock:PersistentLevel.Brush_Street_342.BrushComponent0) Component already registered.
-[2019.01.23-15.05.07:398][851]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_CityBlock.KA_CityBlock:PersistentLevel.Brush_Street_359.BrushComponent0) Component already registered.
-[2019.01.23-15.05.07:978][902]Cmd: TRANSACTION UNDO
-[2019.01.23-15.05.07:979][902]LogEditorTransaction: Undo Move Actors
-[2019.01.23-15.05.08:165][902]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_CityBlock.KA_CityBlock:PersistentLevel.Brush_Street_175.BrushComponent0) Component already registered.
-[2019.01.23-15.05.08:166][902]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_CityBlock.KA_CityBlock:PersistentLevel.Brush_Street_167.BrushComponent0) Component already registered.
-[2019.01.23-15.05.08:166][902]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_CityBlock.KA_CityBlock:PersistentLevel.Brush_Street_192.BrushComponent0) Component already registered.
-[2019.01.23-15.05.08:167][902]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_CityBlock.KA_CityBlock:PersistentLevel.Brush_Street_184.BrushComponent0) Component already registered.
-[2019.01.23-15.05.08:167][902]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_CityBlock.KA_CityBlock:PersistentLevel.Brush_Street_212.BrushComponent0) Component already registered.
-[2019.01.23-15.05.08:167][902]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_CityBlock.KA_CityBlock:PersistentLevel.Brush_Street_154.BrushComponent0) Component already registered.
-[2019.01.23-15.05.08:169][902]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_CityBlock.KA_CityBlock:PersistentLevel.Brush_Street_252.BrushComponent0) Component already registered.
-[2019.01.23-15.05.08:171][902]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_CityBlock.KA_CityBlock:PersistentLevel.Brush_Street_30.BrushComponent0) Component already registered.
-[2019.01.23-15.05.08:172][902]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_CityBlock.KA_CityBlock:PersistentLevel.Brush_Street_56.BrushComponent0) Component already registered.
-[2019.01.23-15.05.08:172][902]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_CityBlock.KA_CityBlock:PersistentLevel.Brush_Street_48.BrushComponent0) Component already registered.
-[2019.01.23-15.05.08:182][902]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_CityBlock.KA_CityBlock:PersistentLevel.Brush_Street_13.BrushComponent0) Component already registered.
-[2019.01.23-15.05.08:183][902]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_CityBlock.KA_CityBlock:PersistentLevel.Brush_Street_111.BrushComponent0) Component already registered.
-[2019.01.23-15.05.08:183][902]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_CityBlock.KA_CityBlock:PersistentLevel.Brush_Street_120.BrushComponent0) Component already registered.
-[2019.01.23-15.05.08:184][902]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_CityBlock.KA_CityBlock:PersistentLevel.Brush_Street_73.BrushComponent0) Component already registered.
-[2019.01.23-15.05.08:185][902]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_CityBlock.KA_CityBlock:PersistentLevel.Brush_Street_125.BrushComponent0) Component already registered.
-[2019.01.23-15.05.08:185][902]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_CityBlock.KA_CityBlock:PersistentLevel.Brush_Street_81.BrushComponent0) Component already registered.
-[2019.01.23-15.05.08:186][902]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_CityBlock.KA_CityBlock:PersistentLevel.Brush_Street_449.BrushComponent0) Component already registered.
-[2019.01.23-15.05.08:187][902]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_CityBlock.KA_CityBlock:PersistentLevel.Brush_Street_466.BrushComponent0) Component already registered.
-[2019.01.23-15.05.08:187][902]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_CityBlock.KA_CityBlock:PersistentLevel.Brush_Street_457.BrushComponent0) Component already registered.
-[2019.01.23-15.05.08:189][902]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_CityBlock.KA_CityBlock:PersistentLevel.Brush_Street_536.BrushComponent0) Component already registered.
-[2019.01.23-15.05.08:190][902]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_CityBlock.KA_CityBlock:PersistentLevel.Brush_Tower_12.BrushComponent0) Component already registered.
-[2019.01.23-15.05.08:191][902]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_CityBlock.KA_CityBlock:PersistentLevel.Brush_Street_474.BrushComponent0) Component already registered.
-[2019.01.23-15.05.08:192][902]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_CityBlock.KA_CityBlock:PersistentLevel.Brush_Street_500.BrushComponent0) Component already registered.
-[2019.01.23-15.05.08:192][902]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_CityBlock.KA_CityBlock:PersistentLevel.Brush_Street_491.BrushComponent0) Component already registered.
-[2019.01.23-15.05.08:193][902]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_CityBlock.KA_CityBlock:PersistentLevel.Brush_Street_316.BrushComponent0) Component already registered.
-[2019.01.23-15.05.08:194][902]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_CityBlock.KA_CityBlock:PersistentLevel.Brush_Street_333.BrushComponent0) Component already registered.
-[2019.01.23-15.05.08:195][902]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_CityBlock.KA_CityBlock:PersistentLevel.Brush_Street_269.BrushComponent0) Component already registered.
-[2019.01.23-15.05.08:195][902]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_CityBlock.KA_CityBlock:PersistentLevel.Brush_Street_295.BrushComponent0) Component already registered.
-[2019.01.23-15.05.08:195][902]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_CityBlock.KA_CityBlock:PersistentLevel.Brush_Street_286.BrushComponent0) Component already registered.
-[2019.01.23-15.05.08:196][902]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_CityBlock.KA_CityBlock:PersistentLevel.Brush_Street_380.BrushComponent0) Component already registered.
-[2019.01.23-15.05.08:197][902]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_CityBlock.KA_CityBlock:PersistentLevel.Brush_Street_489.BrushComponent0) Component already registered.
-[2019.01.23-15.05.08:197][902]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_CityBlock.KA_CityBlock:PersistentLevel.Brush_Street_397.BrushComponent0) Component already registered.
-[2019.01.23-15.05.08:197][902]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_CityBlock.KA_CityBlock:PersistentLevel.Brush_Street_389.BrushComponent0) Component already registered.
-[2019.01.23-15.05.08:198][902]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_CityBlock.KA_CityBlock:PersistentLevel.Brush_Street_342.BrushComponent0) Component already registered.
-[2019.01.23-15.05.08:199][902]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_CityBlock.KA_CityBlock:PersistentLevel.Brush_Street_359.BrushComponent0) Component already registered.
-[2019.01.23-15.05.08:629][937]Cmd: TRANSACTION UNDO
-[2019.01.23-15.05.08:629][937]LogEditorTransaction: Undo Move Actors
-[2019.01.23-15.05.08:815][937]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_CityBlock.KA_CityBlock:PersistentLevel.Brush_Street_175.BrushComponent0) Component already registered.
-[2019.01.23-15.05.08:816][937]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_CityBlock.KA_CityBlock:PersistentLevel.Brush_Street_167.BrushComponent0) Component already registered.
-[2019.01.23-15.05.08:816][937]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_CityBlock.KA_CityBlock:PersistentLevel.Brush_Street_192.BrushComponent0) Component already registered.
-[2019.01.23-15.05.08:817][937]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_CityBlock.KA_CityBlock:PersistentLevel.Brush_Street_184.BrushComponent0) Component already registered.
-[2019.01.23-15.05.08:818][937]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_CityBlock.KA_CityBlock:PersistentLevel.Brush_Street_212.BrushComponent0) Component already registered.
-[2019.01.23-15.05.08:819][937]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_CityBlock.KA_CityBlock:PersistentLevel.Brush_Street_154.BrushComponent0) Component already registered.
-[2019.01.23-15.05.08:821][937]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_CityBlock.KA_CityBlock:PersistentLevel.Brush_Street_252.BrushComponent0) Component already registered.
-[2019.01.23-15.05.08:825][937]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_CityBlock.KA_CityBlock:PersistentLevel.Brush_Street_30.BrushComponent0) Component already registered.
-[2019.01.23-15.05.08:826][937]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_CityBlock.KA_CityBlock:PersistentLevel.Brush_Street_56.BrushComponent0) Component already registered.
-[2019.01.23-15.05.08:827][937]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_CityBlock.KA_CityBlock:PersistentLevel.Brush_Street_48.BrushComponent0) Component already registered.
-[2019.01.23-15.05.08:840][937]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_CityBlock.KA_CityBlock:PersistentLevel.Brush_Street_13.BrushComponent0) Component already registered.
-[2019.01.23-15.05.08:841][937]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_CityBlock.KA_CityBlock:PersistentLevel.Brush_Street_111.BrushComponent0) Component already registered.
-[2019.01.23-15.05.08:841][937]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_CityBlock.KA_CityBlock:PersistentLevel.Brush_Street_120.BrushComponent0) Component already registered.
-[2019.01.23-15.05.08:842][937]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_CityBlock.KA_CityBlock:PersistentLevel.Brush_Street_73.BrushComponent0) Component already registered.
-[2019.01.23-15.05.08:842][937]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_CityBlock.KA_CityBlock:PersistentLevel.Brush_Street_125.BrushComponent0) Component already registered.
-[2019.01.23-15.05.08:843][937]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_CityBlock.KA_CityBlock:PersistentLevel.Brush_Street_81.BrushComponent0) Component already registered.
-[2019.01.23-15.05.08:844][937]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_CityBlock.KA_CityBlock:PersistentLevel.Brush_Street_449.BrushComponent0) Component already registered.
-[2019.01.23-15.05.08:846][937]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_CityBlock.KA_CityBlock:PersistentLevel.Brush_Street_466.BrushComponent0) Component already registered.
-[2019.01.23-15.05.08:846][937]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_CityBlock.KA_CityBlock:PersistentLevel.Brush_Street_457.BrushComponent0) Component already registered.
-[2019.01.23-15.05.08:849][937]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_CityBlock.KA_CityBlock:PersistentLevel.Brush_Street_536.BrushComponent0) Component already registered.
-[2019.01.23-15.05.08:851][937]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_CityBlock.KA_CityBlock:PersistentLevel.Brush_Tower_12.BrushComponent0) Component already registered.
-[2019.01.23-15.05.08:853][937]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_CityBlock.KA_CityBlock:PersistentLevel.Brush_Street_474.BrushComponent0) Component already registered.
-[2019.01.23-15.05.08:854][937]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_CityBlock.KA_CityBlock:PersistentLevel.Brush_Street_500.BrushComponent0) Component already registered.
-[2019.01.23-15.05.08:854][937]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_CityBlock.KA_CityBlock:PersistentLevel.Brush_Street_491.BrushComponent0) Component already registered.
-[2019.01.23-15.05.08:855][937]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_CityBlock.KA_CityBlock:PersistentLevel.Brush_Street_316.BrushComponent0) Component already registered.
-[2019.01.23-15.05.08:856][937]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_CityBlock.KA_CityBlock:PersistentLevel.Brush_Street_333.BrushComponent0) Component already registered.
-[2019.01.23-15.05.08:856][937]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_CityBlock.KA_CityBlock:PersistentLevel.Brush_Street_269.BrushComponent0) Component already registered.
-[2019.01.23-15.05.08:857][937]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_CityBlock.KA_CityBlock:PersistentLevel.Brush_Street_295.BrushComponent0) Component already registered.
-[2019.01.23-15.05.08:857][937]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_CityBlock.KA_CityBlock:PersistentLevel.Brush_Street_286.BrushComponent0) Component already registered.
-[2019.01.23-15.05.08:858][937]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_CityBlock.KA_CityBlock:PersistentLevel.Brush_Street_380.BrushComponent0) Component already registered.
-[2019.01.23-15.05.08:859][937]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_CityBlock.KA_CityBlock:PersistentLevel.Brush_Street_489.BrushComponent0) Component already registered.
-[2019.01.23-15.05.08:859][937]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_CityBlock.KA_CityBlock:PersistentLevel.Brush_Street_397.BrushComponent0) Component already registered.
-[2019.01.23-15.05.08:860][937]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_CityBlock.KA_CityBlock:PersistentLevel.Brush_Street_389.BrushComponent0) Component already registered.
-[2019.01.23-15.05.08:860][937]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_CityBlock.KA_CityBlock:PersistentLevel.Brush_Street_342.BrushComponent0) Component already registered.
-[2019.01.23-15.05.08:861][937]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_CityBlock.KA_CityBlock:PersistentLevel.Brush_Street_359.BrushComponent0) Component already registered.
-[2019.01.23-15.05.09:365][980]Cmd: TRANSACTION UNDO
-[2019.01.23-15.05.09:365][980]LogEditorTransaction: Undo Edit Z
-[2019.01.23-15.05.09:551][980]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_CityBlock.KA_CityBlock:PersistentLevel.Brush_Street_175.BrushComponent0) Component already registered.
-[2019.01.23-15.05.09:552][980]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_CityBlock.KA_CityBlock:PersistentLevel.Brush_Street_167.BrushComponent0) Component already registered.
-[2019.01.23-15.05.09:553][980]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_CityBlock.KA_CityBlock:PersistentLevel.Brush_Street_212.BrushComponent0) Component already registered.
-[2019.01.23-15.05.09:554][980]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_CityBlock.KA_CityBlock:PersistentLevel.Brush_Street_158.BrushComponent0) Component already registered.
-[2019.01.23-15.05.09:555][980]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_CityBlock.KA_CityBlock:PersistentLevel.Brush_Street_150.BrushComponent0) Component already registered.
-[2019.01.23-15.05.09:555][980]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_CityBlock.KA_CityBlock:PersistentLevel.Brush_Street_244.BrushComponent0) Component already registered.
-[2019.01.23-15.05.09:556][980]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_CityBlock.KA_CityBlock:PersistentLevel.Brush_Street_261.BrushComponent0) Component already registered.
-[2019.01.23-15.05.09:556][980]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_CityBlock.KA_CityBlock:PersistentLevel.Brush_Street_252.BrushComponent0) Component already registered.
-[2019.01.23-15.05.09:558][980]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_CityBlock.KA_CityBlock:PersistentLevel.Brush_Street_214.BrushComponent0) Component already registered.
-[2019.01.23-15.05.09:559][980]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_CityBlock.KA_CityBlock:PersistentLevel.Brush_Street_48.BrushComponent0) Component already registered.
-[2019.01.23-15.05.09:576][980]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_CityBlock.KA_CityBlock:PersistentLevel.Brush_Street_111.BrushComponent0) Component already registered.
-[2019.01.23-15.05.09:577][980]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_CityBlock.KA_CityBlock:PersistentLevel.Brush_Street_120.BrushComponent0) Component already registered.
-[2019.01.23-15.05.09:578][980]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_CityBlock.KA_CityBlock:PersistentLevel.Brush_Street_73.BrushComponent0) Component already registered.
-[2019.01.23-15.05.09:578][980]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_CityBlock.KA_CityBlock:PersistentLevel.Brush_Street_125.BrushComponent0) Component already registered.
-[2019.01.23-15.05.09:579][980]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_CityBlock.KA_CityBlock:PersistentLevel.Brush_Street_81.BrushComponent0) Component already registered.
-[2019.01.23-15.05.09:580][980]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_CityBlock.KA_CityBlock:PersistentLevel.Brush_Street_449.BrushComponent0) Component already registered.
-[2019.01.23-15.05.09:581][980]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_CityBlock.KA_CityBlock:PersistentLevel.Brush_Street_466.BrushComponent0) Component already registered.
-[2019.01.23-15.05.09:581][980]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_CityBlock.KA_CityBlock:PersistentLevel.Brush_Street_457.BrushComponent0) Component already registered.
-[2019.01.23-15.05.09:584][980]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_CityBlock.KA_CityBlock:PersistentLevel.Brush_Street_536.BrushComponent0) Component already registered.
-[2019.01.23-15.05.09:586][980]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_CityBlock.KA_CityBlock:PersistentLevel.Brush_Tower_12.BrushComponent0) Component already registered.
-[2019.01.23-15.05.09:590][980]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_CityBlock.KA_CityBlock:PersistentLevel.Brush_Street_474.BrushComponent0) Component already registered.
-[2019.01.23-15.05.09:591][980]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_CityBlock.KA_CityBlock:PersistentLevel.Brush_Street_500.BrushComponent0) Component already registered.
-[2019.01.23-15.05.09:592][980]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_CityBlock.KA_CityBlock:PersistentLevel.Brush_Street_491.BrushComponent0) Component already registered.
-[2019.01.23-15.05.09:593][980]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_CityBlock.KA_CityBlock:PersistentLevel.Brush_Street_316.BrushComponent0) Component already registered.
-[2019.01.23-15.05.09:596][980]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_CityBlock.KA_CityBlock:PersistentLevel.Brush_Street_333.BrushComponent0) Component already registered.
-[2019.01.23-15.05.09:597][980]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_CityBlock.KA_CityBlock:PersistentLevel.Brush_Street_269.BrushComponent0) Component already registered.
-[2019.01.23-15.05.09:598][980]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_CityBlock.KA_CityBlock:PersistentLevel.Brush_Street_295.BrushComponent0) Component already registered.
-[2019.01.23-15.05.09:599][980]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_CityBlock.KA_CityBlock:PersistentLevel.Brush_Street_286.BrushComponent0) Component already registered.
-[2019.01.23-15.05.09:600][980]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_CityBlock.KA_CityBlock:PersistentLevel.Brush_Street_380.BrushComponent0) Component already registered.
-[2019.01.23-15.05.09:601][980]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_CityBlock.KA_CityBlock:PersistentLevel.Brush_Street_489.BrushComponent0) Component already registered.
-[2019.01.23-15.05.09:601][980]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_CityBlock.KA_CityBlock:PersistentLevel.Brush_Street_397.BrushComponent0) Component already registered.
-[2019.01.23-15.05.09:602][980]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_CityBlock.KA_CityBlock:PersistentLevel.Brush_Street_389.BrushComponent0) Component already registered.
-[2019.01.23-15.05.09:602][980]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_CityBlock.KA_CityBlock:PersistentLevel.Brush_Street_342.BrushComponent0) Component already registered.
-[2019.01.23-15.05.09:603][980]LogActorComponent: ~FComponentReregisterContext: (/Game/KA_CityBlock.KA_CityBlock:PersistentLevel.Brush_Street_359.BrushComponent0) Component already registered.
-[2019.01.23-15.05.14:400][512]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.01.23-15.05.29:053][214]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
-[2019.01.23-15.05.29:821][301]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
-[2019.01.23-15.05.32:516][606]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.01.23-15.05.54:479][ 98]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
-[2019.01.23-15.05.56:525][328]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2019.01.23-15.05.58:269][527]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2019.01.23-15.06.00:805][527]LogSavePackage: Moving '../../../../../../Users/u0917946/Documents/GitHub/KA_AssetPipeline/KA_WBCB002_AP/Saved/KA_CityBlock6D43A54144B77ACFDD6761927FC8969B.tmp' to '../../../../../../Users/u0917946/Documents/GitHub/KA_AssetPipeline/KA_WBCB002_AP/Content/KA_CityBlock.umap'
-[2019.01.23-15.06.00:861][527]LogFileHelpers: Saving map 'KA_CityBlock' took 2.579
-[2019.01.23-15.06.00:895][527]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/SM_hatMat" FILE="../../../../../../Users/u0917946/Documents/GitHub/KA_AssetPipeline/KA_WBCB002_AP/Content/SM_hatMat.uasset" SILENT=true
-[2019.01.23-15.06.00:909][527]LogSavePackage: Moving '../../../../../../Users/u0917946/Documents/GitHub/KA_AssetPipeline/KA_WBCB002_AP/Saved/SM_hatMat82BA92D244BD708B6D9E20A1BEFA2E1E.tmp' to '../../../../../../Users/u0917946/Documents/GitHub/KA_AssetPipeline/KA_WBCB002_AP/Content/SM_hatMat.uasset'
-[2019.01.23-15.06.14:566][149]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (mann)
-[2019.01.23-15.06.27:563][684]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
-[2019.01.23-15.12.21:620][843]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.01.23-15.15.59:237][537]LogSavePackage: Moving '../../../../../../Users/u0917946/Documents/GitHub/KA_AssetPipeline/KA_WBCB002_AP/Saved/KA_CityBlock_Auto16AD1BBC445134F2681E292AC52F19F76.tmp' to '../../../../../../Users/u0917946/Documents/GitHub/KA_AssetPipeline/KA_WBCB002_AP/Saved/Autosaves/Game/KA_CityBlock_Auto1.umap'
-[2019.01.23-15.15.59:244][537]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/KA_CityBlock' took 0.890
-[2019.01.23-15.15.59:244][537]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.890
-[2019.01.23-15.15.59:252][537]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/MI_WBoxThatch_KA] ([1] browsable assets)...
-[2019.01.23-15.15.59:272][537]OBJ SavePackage:     Rendered thumbnail for [MaterialInstanceConstant /Game/MI_WBoxThatch_KA.MI_WBoxThatch_KA]
-[2019.01.23-15.15.59:272][537]OBJ SavePackage: Finished generating thumbnails for package [/Game/MI_WBoxThatch_KA]
-[2019.01.23-15.15.59:287][537]LogSavePackage: Moving '../../../../../../Users/u0917946/Documents/GitHub/KA_AssetPipeline/KA_WBCB002_AP/Saved/MI_WBoxThatch_KA_Auto1716970754F6D503C84C7B385D5B9411E.tmp' to '../../../../../../Users/u0917946/Documents/GitHub/KA_AssetPipeline/KA_WBCB002_AP/Saved/Autosaves/Game/MI_WBoxThatch_KA_Auto1.uasset'
-[2019.01.23-15.15.59:288][537]LogFileHelpers: Auto-saving content packages took 0.037
+[2019.01.24-05.46.47:343][  0]LogInit: Selected Device Profile: [Windows]
+[2019.01.24-05.46.47:343][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2019.01.24-05.46.47:356][  0]LogHAL: Display: Platform has ~ 8 GB [8533000192 / 8589934592 / 8], which maps to Default [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2019.01.24-05.46.47:356][  0]LogInit: Setting Device Profile CVar: [[r.Vulkan.UseRealUBs:1]]
+[2019.01.24-05.46.47:356][  0]LogInit: Going up to parent DeviceProfile []
+[2019.01.24-05.46.47:357][  0]LogInit: Computer: DESKTOP-57SU7M2
+[2019.01.24-05.46.47:357][  0]LogInit: User: Kendrick
+[2019.01.24-05.46.47:357][  0]LogInit: CPU Page size=4096, Cores=4
+[2019.01.24-05.46.47:357][  0]LogInit: High frequency timer resolution =3.410226 MHz
+[2019.01.24-05.46.47:357][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
+[2019.01.24-05.46.47:357][  0]LogMemory: Platform Memory Stats for Windows
+[2019.01.24-05.46.47:357][  0]LogMemory: Process Physical Memory: 99.30 MB used, 99.30 MB peak
+[2019.01.24-05.46.47:357][  0]LogMemory: Process Virtual Memory: 91.00 MB used, 91.00 MB peak
+[2019.01.24-05.46.47:357][  0]LogMemory: Physical Memory: 3825.69 MB used,  4312.02 MB free, 8137.70 MB total
+[2019.01.24-05.46.47:357][  0]LogMemory: Virtual Memory: 4645.16 MB used,  4312.02 MB free, 134217728.00 MB total
+[2019.01.24-05.46.47:380][  0]LogInit: Using OS detected language (en-US).
+[2019.01.24-05.46.47:380][  0]LogInit: Using OS detected locale (en-US).
+[2019.01.24-05.46.47:382][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2019.01.24-05.46.47:766][  0]LogStreaming: Display: Took  0.386s to InitEngineTextLocalization.
+[2019.01.24-05.46.47:766][  0]LogInit: Setting process to per monitor DPI aware
+[2019.01.24-05.46.47:793][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2019.01.24-05.46.47:793][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2019.01.24-05.46.48:045][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2019.01.24-05.46.48:045][  0]LogD3D11RHI: D3D11 adapters:
+[2019.01.24-05.46.48:141][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1070' (Feature Level 11_0)
+[2019.01.24-05.46.48:141][  0]LogD3D11RHI:       8088/0/4068 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2019.01.24-05.46.48:144][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2019.01.24-05.46.48:144][  0]LogD3D11RHI:       0/0/4068 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2019.01.24-05.46.48:144][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2019.01.24-05.46.48:152][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2019.01.24-05.46.48:152][  0]LogD3D11RHI:     GPU DeviceId: 0x1b81 (for the marketing name, search the web for "GPU Device Id")
+[2019.01.24-05.46.48:152][  0]LogWindows: EnumDisplayDevices:
+[2019.01.24-05.46.48:153][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1070' (P:1 D:1)
+[2019.01.24-05.46.48:153][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2019.01.24-05.46.48:153][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2019.01.24-05.46.48:154][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2019.01.24-05.46.48:154][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2019.01.24-05.46.48:154][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1070
+[2019.01.24-05.46.48:154][  0]LogD3D11RHI:   Driver Version: 417.35 (internal:25.21.14.1735, unified:417.35)
+[2019.01.24-05.46.48:154][  0]LogD3D11RHI:      Driver Date: 12-11-2018
+[2019.01.24-05.46.48:154][  0]LogRHI: Texture pool is 5661 MB (70% of 8088 MB)
+[2019.01.24-05.46.48:221][  0]LogD3D11RHI: Async texture creation enabled
+[2019.01.24-05.46.48:250][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2019.01.24-05.46.48:297][  0]LogShaderCompilers: Guid format shader working directory is -13 characters bigger than the processId version (../../../../../../Git/GenjiGame/KA_AssetPipeline/KA_WBCB002_AP/Intermediate/Shaders/WorkingDirectory/6192/).
+[2019.01.24-05.46.48:298][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Kendrick/AppData/Local/Temp/UnrealShaderWorkingDir/4672A59842A5B8C9C560E6801295E0D2/'.
+[2019.01.24-05.46.48:626][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2019.01.24-05.46.48:639][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2019.01.24-05.46.48:655][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2019.01.24-05.46.48:668][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2019.01.24-05.46.48:681][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2019.01.24-05.46.48:694][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2019.01.24-05.46.48:708][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2019.01.24-05.46.48:721][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2019.01.24-05.46.48:727][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2019.01.24-05.46.48:810][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.24-05.46.48:810][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.24-05.46.48:810][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.24-05.46.48:810][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.24-05.46.48:810][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.24-05.46.48:810][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.24-05.46.48:810][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.24-05.46.48:810][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.24-05.46.48:810][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.24-05.46.48:810][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.24-05.46.48:810][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.24-05.46.48:810][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.24-05.46.48:810][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.24-05.46.48:810][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.24-05.46.48:810][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.24-05.46.48:810][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.24-05.46.48:810][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.24-05.46.48:810][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.24-05.46.48:811][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2019.01.24-05.46.48:871][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2019.01.24-05.46.48:871][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2019.01.24-05.46.48:902][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2019.01.24-05.46.48:902][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2019.01.24-05.46.48:915][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2019.01.24-05.46.48:928][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2019.01.24-05.46.48:941][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2019.01.24-05.46.48:955][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2019.01.24-05.46.48:964][  0]LogTemp: Display: Loaded TP LuminTargetPlatform
+[2019.01.24-05.46.48:964][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2019.01.24-05.46.49:018][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2019.01.24-05.46.49:019][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2019.01.24-05.46.49:019][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2019.01.24-05.46.49:862][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2019.01.24-05.46.49:955][  0]LogDerivedDataCache: Loaded boot cache 0.09s 71MB C:/Users/Kendrick/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2019.01.24-05.46.49:957][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Kendrick/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc
+[2019.01.24-05.46.49:957][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Git/GenjiGame/KA_AssetPipeline/KA_WBCB002_AP/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2019.01.24-05.46.49:957][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2019.01.24-05.46.49:957][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Git/GenjiGame/KA_AssetPipeline/KA_WBCB002_AP/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2019.01.24-05.46.49:957][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2019.01.24-05.46.49:970][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2019.01.24-05.46.49:983][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Kendrick/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2019.01.24-05.46.49:983][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2019.01.24-05.46.49:983][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2019.01.24-05.46.50:009][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2019.01.24-05.46.50:010][  0]LogSlate: Using FreeType 2.6.0
+[2019.01.24-05.46.50:011][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2019.01.24-05.46.50:092][  0]LogAssetRegistry: FAssetRegistry took 0.0268 seconds to start up
+[2019.01.24-05.46.50:500][  0]LogInit: Selected Device Profile: [Windows]
+[2019.01.24-05.46.50:639][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2019.01.24-05.46.50:643][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2019.01.24-05.46.50:643][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2019.01.24-05.46.50:643][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2019.01.24-05.46.50:643][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2019.01.24-05.46.50:664][  0]LogNetVersion: KA_WBCB002_AP 1.0.0, NetCL: 4212847, EngineNetVer: 5, GameNetVer: 0 (Checksum: 1864655241)
+[2019.01.24-05.46.51:193][  0]LogPackageLocalizationCache: Processed 11 localized package path(s) for 2 prioritized culture(s) in 0.091365 seconds
+[2019.01.24-05.46.51:199][  0]LogUObjectArray: 38425 objects as part of root set at end of initial load.
+[2019.01.24-05.46.51:200][  0]LogUObjectAllocator: 6690864 out of 0 bytes used by permanent object pool.
+[2019.01.24-05.46.51:200][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2019.01.24-05.46.52:091][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2019.01.24-05.46.52:105][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2019.01.24-05.46.52:253][  0]SourceControl: Source control is disabled
+[2019.01.24-05.46.52:254][  0]SourceControl: Source control is disabled
+[2019.01.24-05.46.52:255][  0]SourceControl: Source control is disabled
+[2019.01.24-05.46.52:257][  0]SourceControl: Source control is disabled
+[2019.01.24-05.46.52:421][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2019.01.24-05.46.52:520][  0]LogOcInput: OculusInput pre-init called
+[2019.01.24-05.46.52:585][  0]LogEngine: Initializing Engine...
+[2019.01.24-05.46.52:586][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2019.01.24-05.46.52:588][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2019.01.24-05.46.52:588][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2019.01.24-05.46.52:588][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2019.01.24-05.46.52:588][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2019.01.24-05.46.52:850][  0]LogInit: Initializing FReadOnlyCVARCache
+[2019.01.24-05.46.52:861][  0]LogAIModule: Creating AISystem for world Untitled
+[2019.01.24-05.46.52:887][  0]LogInit: XAudio2 using 'Speakers (USB Sound Device        )' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.01.24-05.46.52:928][  0]LogInit: FAudioDevice initialized.
+[2019.01.24-05.46.52:928][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2019.01.24-05.46.53:052][  0]LogDerivedDataCache: Saved boot cache 0.12s 71MB C:/Users/Kendrick/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2019.01.24-05.46.53:060][  0]LogInit: Texture streaming: Enabled
+[2019.01.24-05.46.53:090][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2019.01.24-05.46.53:118][  0]LogInit: Transaction tracking system initialized
+[2019.01.24-05.46.53:148][  0]BlueprintLog: New page: Editor Load
+[2019.01.24-05.46.53:215][  0]LocalizationService: Localization service is disabled
+[2019.01.24-05.46.53:486][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2019.01.24-05.46.53:486][  0]LogCook: Display: Mobile HDR setting 1
+[2019.01.24-05.46.53:486][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2019.01.24-05.46.53:486][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2019.01.24-05.46.53:486][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2019.01.24-05.46.53:486][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2019.01.24-05.46.53:486][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2019.01.24-05.46.53:611][  0]LogFileCache: Scanning file cache for directory 'F:/Git/GenjiGame/KA_AssetPipeline/KA_WBCB002_AP/Content/' took 0.01s
+[2019.01.24-05.46.53:611][  0]SourceControl: Source control is disabled
+[2019.01.24-05.46.53:611][  0]Cmd: MAP LOAD FILE="../../../Engine/Content/Maps/Templates/Template_Default.umap" TEMPLATE=1 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.01.24-05.46.53:611][  0]LightingResults: New page: Lighting Build
+[2019.01.24-05.46.53:614][  0]MapCheck: New page: Map Check
+[2019.01.24-05.46.53:614][  0]LightingResults: New page: Lighting Build
+[2019.01.24-05.46.53:905][  0]LogAIModule: Creating AISystem for world Untitled_1
+[2019.01.24-05.46.53:913][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.01.24-05.46.53:931][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.01.24-05.46.54:003][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 71.526ms to complete.
+[2019.01.24-05.46.54:003][  0]LogFileHelpers: Loading map 'Template_Default' took 0.392
+[2019.01.24-05.46.54:115][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.24-05.46.54:126][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.24-05.46.54:135][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.24-05.46.54:145][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.24-05.46.54:150][  0]LogCollectionManager: Loaded 0 collections in 0.001273 seconds
+[2019.01.24-05.46.54:195][  0]LogFileCache: Scanning file cache for directory 'F:/Git/GenjiGame/KA_AssetPipeline/KA_WBCB002_AP/Saved/Collections/' took 0.01s
+[2019.01.24-05.46.54:195][  0]LogFileCache: Scanning file cache for directory 'F:/Git/GenjiGame/KA_AssetPipeline/KA_WBCB002_AP/Content/Developers/Kendrick/Collections/' took 0.01s
+[2019.01.24-05.46.54:195][  0]LogFileCache: Scanning file cache for directory 'F:/Git/GenjiGame/KA_AssetPipeline/KA_WBCB002_AP/Content/Collections/' took 0.01s
+[2019.01.24-05.46.54:195][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
+[2019.01.24-05.46.54:205][  0]LogContentBrowser: Native class hierarchy populated in 0.0094 seconds. Added 2572 classes and 603 folders.
+[2019.01.24-05.46.54:211][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2019.01.24-05.46.54:261][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2019.01.24-05.46.54:266][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0003 seconds. Added 1 classes and 2 folders.
+[2019.01.24-05.46.54:282][  0]LogSlate: Took 0.000273 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2019.01.24-05.46.54:285][  0]LogSlate: Took 0.000250 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2019.01.24-05.46.54:293][  0]LogSlate: Took 0.000251 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2019.01.24-05.46.54:379][  0]LogRenderer: Reallocating scene render targets to support 1124x560 Format 10 NumSamples 1 (Frame:1).
+[2019.01.24-05.46.54:524][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2019.01.24-05.46.54:525][  0]LogLoad: (Engine Initialization) Total time: 9.07 seconds
+[2019.01.24-05.46.54:525][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2019.01.24-05.46.54:535][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2019.01.24-05.46.54:556][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2019.01.24-05.46.54:589][  1]LogAssetRegistry: Asset discovery search completed in 4.5194 seconds
+[2019.01.24-05.46.54:591][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2019.01.24-05.46.54:591][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000044 seconds (updated 0 objects)
+[2019.01.24-05.46.58:583][476]LogSlate: Took 0.000172 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.01.24-05.46.59:686][603]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.24-05.46.59:851][622]LogSlate: Took 0.000307 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.01.24-05.47.00:704][622]LogAIModule: Creating AISystem for world KA_CityBlock
+[2019.01.24-05.47.00:919][622]LogAssetEditorManager: Opening Asset editor for World /Game/KA_CityBlock.KA_CityBlock
+[2019.01.24-05.47.00:952][622]Cmd: MAP LOAD FILE="../../../../../../Git/GenjiGame/KA_AssetPipeline/KA_WBCB002_AP/Content/KA_CityBlock.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.01.24-05.47.00:952][622]LightingResults: New page: Lighting Build
+[2019.01.24-05.47.00:952][622]LoadErrors: New page: Loading map: KA_CityBlock.umap
+[2019.01.24-05.47.00:953][622]MapCheck: New page: Map Check
+[2019.01.24-05.47.00:953][622]LightingResults: New page: Lighting Build
+[2019.01.24-05.47.01:033][622]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.01.24-05.47.01:216][622]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.01.24-05.47.01:288][622]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 71.144ms to complete.
+[2019.01.24-05.47.01:288][622]LogFileHelpers: Loading map 'KA_CityBlock' took 0.337
+[2019.01.24-05.47.15:695][310]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.01.24-05.47.20:731][908]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.24-05.47.20:876][916]LogSlate: Window 'KA_WBCB002_AP - Unreal Editor' being destroyed
+[2019.01.24-05.47.20:877][916]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2019.01.24-05.47.21:045][917]Cmd: QUIT_EDITOR
+[2019.01.24-05.47.21:136][917]LogExit: Preparing to exit.
+[2019.01.24-05.47.22:251][917]LogExit: Editor shut down
+[2019.01.24-05.47.22:251][917]LogExit: Transaction tracking system shut down
+[2019.01.24-05.47.22:662][917]LogExit: Object subsystem successfully closed.
+[2019.01.24-05.47.22:680][917]LogShaderCompilers: Display: Shaders left to compile 0
+[2019.01.24-05.47.22:683][917]LogD3D11RHI: Shutdown
+[2019.01.24-05.47.22:683][917]LogD3D11RHI: CleanupD3DDevice
+[2019.01.24-05.47.22:694][917]LogD3D11RHI: ~FD3D11DynamicRHI
+[2019.01.24-05.47.22:710][917]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (612)
+[2019.01.24-05.47.22:710][917]LogModuleManager: Shutting down and abandoning module SceneOutliner (610)
+[2019.01.24-05.47.22:710][917]LogModuleManager: Shutting down and abandoning module AddContentDialog (608)
+[2019.01.24-05.47.22:711][917]LogModuleManager: Shutting down and abandoning module WidgetCarousel (607)
+[2019.01.24-05.47.22:711][917]LogModuleManager: Shutting down and abandoning module EditorWidgets (604)
+[2019.01.24-05.47.22:711][917]LogModuleManager: Shutting down and abandoning module CollectionManager (602)
+[2019.01.24-05.47.22:712][917]LogModuleManager: Shutting down and abandoning module HierarchicalLODUtilities (600)
+[2019.01.24-05.47.22:712][917]LogModuleManager: Shutting down and abandoning module StatsViewer (598)
+[2019.01.24-05.47.22:712][917]LogModuleManager: Shutting down and abandoning module FoliageEdit (596)
+[2019.01.24-05.47.22:712][917]LogModuleManager: Shutting down and abandoning module LandscapeEditor (594)
+[2019.01.24-05.47.22:712][917]LogModuleManager: Shutting down and abandoning module MeshPaintMode (592)
+[2019.01.24-05.47.22:712][917]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (590)
+[2019.01.24-05.47.22:712][917]LogModuleManager: Shutting down and abandoning module ActorPickerMode (588)
+[2019.01.24-05.47.22:712][917]LogModuleManager: Shutting down and abandoning module GeometryMode (586)
+[2019.01.24-05.47.22:712][917]LogModuleManager: Shutting down and abandoning module TextureAlignMode (584)
+[2019.01.24-05.47.22:712][917]LogModuleManager: Shutting down and abandoning module BspMode (582)
+[2019.01.24-05.47.22:712][917]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (580)
+[2019.01.24-05.47.22:712][917]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (578)
+[2019.01.24-05.47.22:712][917]LogModuleManager: Shutting down and abandoning module AutomationWorker (576)
+[2019.01.24-05.47.22:712][917]LogModuleManager: Shutting down and abandoning module AudioCaptureEditor (574)
+[2019.01.24-05.47.22:712][917]LogModuleManager: Shutting down and abandoning module SequenceRecorder (573)
+[2019.01.24-05.47.22:712][917]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (570)
+[2019.01.24-05.47.22:712][917]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (568)
+[2019.01.24-05.47.22:712][917]LogModuleManager: Shutting down and abandoning module PlacementMode (567)
+[2019.01.24-05.47.22:712][917]LogModuleManager: Shutting down and abandoning module MaterialEditor (566)
+[2019.01.24-05.47.22:712][917]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (562)
+[2019.01.24-05.47.22:712][917]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (560)
+[2019.01.24-05.47.22:713][917]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (558)
+[2019.01.24-05.47.22:713][917]LogModuleManager: Shutting down and abandoning module OpenExrWrapper (556)
+[2019.01.24-05.47.22:713][917]LogModuleManager: Shutting down and abandoning module ImgMediaFactory (554)
+[2019.01.24-05.47.22:713][917]LogModuleManager: Shutting down and abandoning module ImgMediaEditor (552)
+[2019.01.24-05.47.22:713][917]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (550)
+[2019.01.24-05.47.22:713][917]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (548)
+[2019.01.24-05.47.22:713][917]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (546)
+[2019.01.24-05.47.22:713][917]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (544)
+[2019.01.24-05.47.22:713][917]LogModuleManager: Shutting down and abandoning module MagicLeapCameraPreviewFactory (542)
+[2019.01.24-05.47.22:713][917]LogModuleManager: Shutting down and abandoning module MagicLeapMediaFactory (540)
+[2019.01.24-05.47.22:713][917]LogModuleManager: Shutting down and abandoning module MagicLeapMediaEditor (538)
+[2019.01.24-05.47.22:713][917]LogModuleManager: Shutting down and abandoning module CharacterAI (536)
+[2019.01.24-05.47.22:713][917]LogModuleManager: Shutting down and abandoning module SmartSnapping (534)
+[2019.01.24-05.47.22:713][917]LogModuleManager: Shutting down and abandoning module SessionServices (532)
+[2019.01.24-05.47.22:713][917]LogModuleManager: Shutting down and abandoning module ViewportSnapping (530)
+[2019.01.24-05.47.22:713][917]LogModuleManager: Shutting down and abandoning module ViewportInteraction (528)
+[2019.01.24-05.47.22:713][917]LogModuleManager: Shutting down and abandoning module ClothPainter (526)
+[2019.01.24-05.47.22:713][917]LogModuleManager: Shutting down and abandoning module SkeletalMeshEditor (525)
+[2019.01.24-05.47.22:713][917]LogModuleManager: Shutting down and abandoning module LogVisualizer (522)
+[2019.01.24-05.47.22:713][917]LogModuleManager: Shutting down and abandoning module IntroTutorials (520)
+[2019.01.24-05.47.22:713][917]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (519)
+[2019.01.24-05.47.22:713][917]LogModuleManager: Shutting down and abandoning module LuminPlatformEditor (516)
+[2019.01.24-05.47.22:713][917]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (514)
+[2019.01.24-05.47.22:713][917]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (512)
+[2019.01.24-05.47.22:713][917]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (510)
+[2019.01.24-05.47.22:713][917]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (509)
+[2019.01.24-05.47.23:269][917]LogModuleManager: Shutting down and abandoning module WindowsPlatformEditor (506)
+[2019.01.24-05.47.23:269][917]LogModuleManager: Shutting down and abandoning module LuminRuntimeSettings (504)
+[2019.01.24-05.47.23:269][917]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (502)
+[2019.01.24-05.47.23:269][917]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (500)
+[2019.01.24-05.47.23:269][917]LogModuleManager: Shutting down and abandoning module InputBindingEditor (498)
+[2019.01.24-05.47.23:269][917]LogModuleManager: Shutting down and abandoning module MergeActors (496)
+[2019.01.24-05.47.23:269][917]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (494)
+[2019.01.24-05.47.23:269][917]LogModuleManager: Shutting down and abandoning module LocalizationService (493)
+[2019.01.24-05.47.23:269][917]LogModuleManager: Shutting down and abandoning module HardwareTargeting (490)
+[2019.01.24-05.47.23:269][917]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (488)
+[2019.01.24-05.47.23:269][917]LogModuleManager: Shutting down and abandoning module UndoHistory (486)
+[2019.01.24-05.47.23:269][917]LogModuleManager: Shutting down and abandoning module XmlParser (484)
+[2019.01.24-05.47.23:269][917]LogModuleManager: Shutting down and abandoning module Blutility (482)
+[2019.01.24-05.47.23:269][917]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (480)
+[2019.01.24-05.47.23:270][917]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (479)
+[2019.01.24-05.47.23:270][917]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (476)
+[2019.01.24-05.47.23:270][917]LogModuleManager: Shutting down and abandoning module SettingsEditor (474)
+[2019.01.24-05.47.23:270][917]LogModuleManager: Shutting down and abandoning module ProjectLauncher (472)
+[2019.01.24-05.47.23:270][917]LogModuleManager: Shutting down and abandoning module SessionFrontend (470)
+[2019.01.24-05.47.23:270][917]LogModuleManager: Shutting down and abandoning module ProfilerClient (468)
+[2019.01.24-05.47.23:271][917]LogModuleManager: Shutting down and abandoning module DeviceManager (466)
+[2019.01.24-05.47.23:271][917]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (465)
+[2019.01.24-05.47.23:326][917]LogModuleManager: Shutting down and abandoning module AutomationController (462)
+[2019.01.24-05.47.23:326][917]LogModuleManager: Shutting down and abandoning module AutomationWindow (460)
+[2019.01.24-05.47.23:326][917]LogModuleManager: Shutting down and abandoning module Layers (458)
+[2019.01.24-05.47.23:326][917]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (456)
+[2019.01.24-05.47.23:326][917]LogModuleManager: Shutting down and abandoning module DetailCustomizations (454)
+[2019.01.24-05.47.23:326][917]LogModuleManager: Shutting down and abandoning module PackagesDialog (452)
+[2019.01.24-05.47.23:326][917]LogModuleManager: Shutting down and abandoning module Persona (450)
+[2019.01.24-05.47.23:326][917]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (449)
+[2019.01.24-05.47.23:326][917]LogModuleManager: Shutting down and abandoning module AnimGraph (447)
+[2019.01.24-05.47.23:326][917]LogModuleManager: Shutting down and abandoning module Kismet (444)
+[2019.01.24-05.47.23:327][917]LogModuleManager: Shutting down and abandoning module GraphEditor (442)
+[2019.01.24-05.47.23:327][917]LogModuleManager: Shutting down and abandoning module ClassViewer (440)
+[2019.01.24-05.47.23:327][917]LogModuleManager: Shutting down and abandoning module Toolbox (438)
+[2019.01.24-05.47.23:327][917]LogModuleManager: Shutting down and abandoning module ModuleUI (436)
+[2019.01.24-05.47.23:327][917]LogModuleManager: Shutting down and abandoning module MovieSceneTools (434)
+[2019.01.24-05.47.23:327][917]LogModuleManager: Shutting down and abandoning module OutputLog (432)
+[2019.01.24-05.47.23:327][917]LogModuleManager: Shutting down and abandoning module GammaUI (430)
+[2019.01.24-05.47.23:327][917]LogModuleManager: Shutting down and abandoning module Documentation (428)
+[2019.01.24-05.47.23:327][917]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (426)
+[2019.01.24-05.47.23:327][917]LogModuleManager: Shutting down and abandoning module MovieScene (424)
+[2019.01.24-05.47.23:327][917]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (422)
+[2019.01.24-05.47.23:327][917]LogModuleManager: Shutting down and abandoning module LauncherPlatform (420)
+[2019.01.24-05.47.23:327][917]LogModuleManager: Shutting down and abandoning module AnalyticsET (418)
+[2019.01.24-05.47.23:327][917]LogModuleManager: Shutting down and abandoning module PortalServices (416)
+[2019.01.24-05.47.23:327][917]LogModuleManager: Shutting down and abandoning module PortalRpc (414)
+[2019.01.24-05.47.23:327][917]LogModuleManager: Shutting down and abandoning module MessagingRpc (412)
+[2019.01.24-05.47.23:327][917]LogModuleManager: Shutting down and abandoning module AIModule (410)
+[2019.01.24-05.47.23:327][917]LogModuleManager: Shutting down and abandoning module GameplayDebugger (409)
+[2019.01.24-05.47.23:327][917]LogModuleManager: Shutting down and abandoning module AITestSuite (407)
+[2019.01.24-05.47.23:327][917]LogModuleManager: Shutting down and abandoning module NavigationSystem (405)
+[2019.01.24-05.47.23:327][917]LogModuleManager: Shutting down and abandoning module DesktopPlatform (402)
+[2019.01.24-05.47.23:327][917]LogModuleManager: Shutting down and abandoning module ProfilerService (400)
+[2019.01.24-05.47.23:382][917]LogModuleManager: Shutting down and abandoning module TaskGraph (398)
+[2019.01.24-05.47.23:382][917]LogModuleManager: Shutting down and abandoning module SteamVRController (396)
+[2019.01.24-05.47.23:382][917]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (394)
+[2019.01.24-05.47.23:382][917]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (392)
+[2019.01.24-05.47.23:382][917]LogModuleManager: Shutting down and abandoning module OculusInput (390)
+[2019.01.24-05.47.23:382][917]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (388)
+[2019.01.24-05.47.23:382][917]LogModuleManager: Shutting down and abandoning module EditableMesh (386)
+[2019.01.24-05.47.23:382][917]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (384)
+[2019.01.24-05.47.23:382][917]LogModuleManager: Shutting down and abandoning module CableComponent (382)
+[2019.01.24-05.47.23:382][917]LogModuleManager: Shutting down and abandoning module AudioCapture (380)
+[2019.01.24-05.47.23:382][917]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (378)
+[2019.01.24-05.47.23:382][917]LogModuleManager: Shutting down and abandoning module AndroidPermission (376)
+[2019.01.24-05.47.23:382][917]LogModuleManager: Shutting down and abandoning module NUTUnrealEngine4 (374)
+[2019.01.24-05.47.23:382][917]LogModuleManager: Shutting down and abandoning module NetcodeUnitTest (372)
+[2019.01.24-05.47.23:382][917]LogModuleManager: Shutting down and abandoning module MediaCompositingEditor (370)
+[2019.01.24-05.47.23:382][917]LogModuleManager: Shutting down and abandoning module MediaCompositing (368)
+[2019.01.24-05.47.23:383][917]LogModuleManager: Shutting down and abandoning module LinearTimecode (366)
+[2019.01.24-05.47.23:383][917]LogModuleManager: Shutting down and abandoning module ImgMedia (364)
+[2019.01.24-05.47.23:388][917]LogModuleManager: Shutting down and abandoning module HTML5Networking (362)
+[2019.01.24-05.47.23:388][917]LogModuleManager: Shutting down and abandoning module GeometryCacheTracks (360)
+[2019.01.24-05.47.23:388][917]LogModuleManager: Shutting down and abandoning module GeometryCacheSequencer (358)
+[2019.01.24-05.47.23:388][917]LogModuleManager: Shutting down and abandoning module BackChannel (356)
+[2019.01.24-05.47.23:388][917]LogModuleManager: Shutting down and abandoning module AppleVision (354)
+[2019.01.24-05.47.23:388][917]LogModuleManager: Shutting down and abandoning module AppleImageUtils (352)
+[2019.01.24-05.47.23:388][917]LogModuleManager: Shutting down and abandoning module AlembicImporter (350)
+[2019.01.24-05.47.23:388][917]LogModuleManager: Shutting down and abandoning module AlembicLibrary (349)
+[2019.01.24-05.47.23:388][917]LogModuleManager: Shutting down and abandoning module GeometryCache (348)
+[2019.01.24-05.47.23:388][917]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (347)
+[2019.01.24-05.47.23:388][917]LogModuleManager: Shutting down and abandoning module DatasmithContentEditor (342)
+[2019.01.24-05.47.23:388][917]LogModuleManager: Shutting down and abandoning module DatasmithContent (340)
+[2019.01.24-05.47.23:389][917]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (338)
+[2019.01.24-05.47.23:389][917]LogModuleManager: Shutting down and abandoning module PluginBrowser (336)
+[2019.01.24-05.47.23:389][917]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (334)
+[2019.01.24-05.47.23:389][917]LogModuleManager: Shutting down and abandoning module PolygonModeling (332)
+[2019.01.24-05.47.23:389][917]LogModuleManager: Shutting down and abandoning module MeshEditor (330)
+[2019.01.24-05.47.23:389][917]LogModuleManager: Shutting down and abandoning module CryptoKeysOpenSSL (328)
+[2019.01.24-05.47.23:389][917]LogModuleManager: Shutting down and abandoning module CryptoKeys (326)
+[2019.01.24-05.47.23:389][917]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (324)
+[2019.01.24-05.47.23:389][917]LogModuleManager: Shutting down and abandoning module VisualStudioCodeSourceCodeAccess (322)
+[2019.01.24-05.47.23:390][917]LogModuleManager: Shutting down and abandoning module UObjectPlugin (320)
+[2019.01.24-05.47.23:390][917]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (318)
+[2019.01.24-05.47.23:390][917]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (316)
+[2019.01.24-05.47.23:390][917]LogModuleManager: Shutting down and abandoning module GitSourceControl (314)
+[2019.01.24-05.47.23:390][917]LogModuleManager: Shutting down and abandoning module SourceControl (313)
+[2019.01.24-05.47.23:390][917]LogModuleManager: Shutting down and abandoning module CLionSourceCodeAccess (310)
+[2019.01.24-05.47.23:390][917]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (308)
+[2019.01.24-05.47.23:390][917]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (306)
+[2019.01.24-05.47.23:390][917]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (304)
+[2019.01.24-05.47.23:390][917]LogModuleManager: Shutting down and abandoning module Paper2DEditor (302)
+[2019.01.24-05.47.23:390][917]LogModuleManager: Shutting down and abandoning module MeshPaint (301)
+[2019.01.24-05.47.23:390][917]LogModuleManager: Shutting down and abandoning module RuntimePhysXCooking (298)
+[2019.01.24-05.47.23:390][917]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (296)
+[2019.01.24-05.47.23:391][917]LogModuleManager: Shutting down and abandoning module PhysXVehicles (294)
+[2019.01.24-05.47.23:391][917]LogModuleManager: Shutting down and abandoning module OculusEditor (292)
+[2019.01.24-05.47.23:391][917]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (290)
+[2019.01.24-05.47.23:391][917]LogModuleManager: Shutting down and abandoning module ImmediatePhysicsEditor (288)
+[2019.01.24-05.47.23:391][917]LogModuleManager: Shutting down and abandoning module ImmediatePhysics (286)
+[2019.01.24-05.47.23:391][917]LogModuleManager: Shutting down and abandoning module ActorSequence (284)
+[2019.01.24-05.47.23:391][917]LogModuleManager: Shutting down and abandoning module UdpMessaging (282)
+[2019.01.24-05.47.23:492][917]LogModuleManager: Shutting down and abandoning module TcpMessaging (280)
+[2019.01.24-05.47.23:593][917]LogModuleManager: Shutting down and abandoning module MagicLeapAudio (278)
+[2019.01.24-05.47.23:593][917]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (276)
+[2019.01.24-05.47.23:593][917]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (274)
+[2019.01.24-05.47.23:593][917]LogModuleManager: Shutting down and abandoning module FacialAnimation (272)
+[2019.01.24-05.47.23:593][917]LogModuleManager: Shutting down and abandoning module DataValidation (270)
+[2019.01.24-05.47.23:593][917]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (268)
+[2019.01.24-05.47.23:593][917]LogModuleManager: Shutting down and abandoning module LevelEditor (267)
+[2019.01.24-05.47.23:594][917]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (266)
+[2019.01.24-05.47.23:594][917]LogModuleManager: Shutting down and abandoning module CommonMenuExtensions (264)
+[2019.01.24-05.47.23:595][917]LogModuleManager: Shutting down and abandoning module MainFrame (262)
+[2019.01.24-05.47.23:595][917]LogModuleManager: Shutting down and abandoning module HotReload (261)
+[2019.01.24-05.47.23:595][917]LogModuleManager: Shutting down and abandoning module ContentBrowser (257)
+[2019.01.24-05.47.23:597][917]LogModuleManager: Shutting down and abandoning module TreeMap (255)
+[2019.01.24-05.47.23:597][917]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (252)
+[2019.01.24-05.47.23:597][917]LogModuleManager: Shutting down and abandoning module AISupportModule (250)
+[2019.01.24-05.47.23:597][917]LogModuleManager: Shutting down and abandoning module Paper2D (248)
+[2019.01.24-05.47.23:597][917]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (246)
+[2019.01.24-05.47.23:597][917]LogModuleManager: Shutting down and abandoning module WmfMedia (244)
+[2019.01.24-05.47.23:600][917]LogModuleManager: Shutting down and abandoning module Media (243)
+[2019.01.24-05.47.23:606][917]LogModuleManager: Shutting down and abandoning module PacketHandler (240)
+[2019.01.24-05.47.23:607][917]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (238)
+[2019.01.24-05.47.23:607][917]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (236)
+[2019.01.24-05.47.23:607][917]LogModuleManager: Shutting down and abandoning module MediaAssets (234)
+[2019.01.24-05.47.23:607][917]LogModuleManager: Shutting down and abandoning module Overlay (232)
+[2019.01.24-05.47.23:607][917]LogModuleManager: Shutting down and abandoning module OverlayEditor (231)
+[2019.01.24-05.47.23:607][917]LogModuleManager: Shutting down and abandoning module VREditor (228)
+[2019.01.24-05.47.23:607][917]LogModuleManager: Shutting down and abandoning module StringTableEditor (226)
+[2019.01.24-05.47.23:607][917]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (224)
+[2019.01.24-05.47.23:607][917]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (222)
+[2019.01.24-05.47.23:607][917]LogModuleManager: Shutting down and abandoning module FunctionalTesting (220)
+[2019.01.24-05.47.23:607][917]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (218)
+[2019.01.24-05.47.23:607][917]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (217)
+[2019.01.24-05.47.23:607][917]LogModuleManager: Shutting down and abandoning module UMG (214)
+[2019.01.24-05.47.23:607][917]LogModuleManager: Shutting down and abandoning module UMGEditor (213)
+[2019.01.24-05.47.23:607][917]LogModuleManager: Shutting down and abandoning module Sequencer (212)
+[2019.01.24-05.47.23:608][917]LogModuleManager: Shutting down and abandoning module MessageLog (209)
+[2019.01.24-05.47.23:608][917]LogModuleManager: Shutting down and abandoning module SlateReflector (204)
+[2019.01.24-05.47.23:608][917]LogModuleManager: Shutting down and abandoning module Slate (202)
+[2019.01.24-05.47.23:608][917]LogModuleManager: Shutting down and abandoning module EditorStyle (200)
+[2019.01.24-05.47.23:611][917]LogModuleManager: Shutting down and abandoning module MRMesh (198)
+[2019.01.24-05.47.23:611][917]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (196)
+[2019.01.24-05.47.23:611][917]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (194)
+[2019.01.24-05.47.23:611][917]LogModuleManager: Shutting down and abandoning module XAudio2 (192)
+[2019.01.24-05.47.23:611][917]LogModuleManager: Shutting down and abandoning module Networking (190)
+[2019.01.24-05.47.23:611][917]LogModuleManager: Shutting down and abandoning module Core (188)
+[2019.01.24-05.47.23:611][917]LogModuleManager: Shutting down and abandoning module LevelSequence (186)
+[2019.01.24-05.47.23:611][917]LogModuleManager: Shutting down and abandoning module KismetCompiler (184)
+[2019.01.24-05.47.23:611][917]LogModuleManager: Shutting down and abandoning module MeshUtilities (182)
+[2019.01.24-05.47.23:611][917]LogModuleManager: Shutting down and abandoning module MeshMergeUtilities (181)
+[2019.01.24-05.47.23:611][917]LogModuleManager: Shutting down and abandoning module MeshReductionInterface (180)
+[2019.01.24-05.47.23:611][917]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (179)
+[2019.01.24-05.47.23:612][917]LogModuleManager: Shutting down and abandoning module ProxyLODMeshReduction (177)
+[2019.01.24-05.47.23:612][917]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (175)
+[2019.01.24-05.47.23:612][917]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (173)
+[2019.01.24-05.47.23:612][917]LogModuleManager: Shutting down and abandoning module MaterialBaking (169)
+[2019.01.24-05.47.23:612][917]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (165)
+[2019.01.24-05.47.23:627][917]LogModuleManager: Shutting down and abandoning module DerivedDataCache (162)
+[2019.01.24-05.47.24:057][917]LogDerivedDataCache: Shutdown
+[2019.01.24-05.47.24:057][917]LogModuleManager: Shutting down and abandoning module XGEController (160)
+[2019.01.24-05.47.24:057][917]LogModuleManager: Shutting down and abandoning module TargetPlatform (158)
+[2019.01.24-05.47.24:057][917]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (157)
+[2019.01.24-05.47.24:057][917]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (155)
+[2019.01.24-05.47.24:057][917]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (153)
+[2019.01.24-05.47.24:057][917]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (151)
+[2019.01.24-05.47.24:057][917]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (149)
+[2019.01.24-05.47.24:057][917]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (147)
+[2019.01.24-05.47.24:057][917]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (145)
+[2019.01.24-05.47.24:057][917]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (143)
+[2019.01.24-05.47.24:057][917]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (141)
+[2019.01.24-05.47.24:058][917]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (139)
+[2019.01.24-05.47.24:058][917]LogModuleManager: Shutting down and abandoning module ImageWrapper (138)
+[2019.01.24-05.47.24:058][917]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (135)
+[2019.01.24-05.47.24:058][917]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (133)
+[2019.01.24-05.47.24:058][917]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (131)
+[2019.01.24-05.47.24:058][917]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (129)
+[2019.01.24-05.47.24:058][917]LogModuleManager: Shutting down and abandoning module LuminTargetPlatform (127)
+[2019.01.24-05.47.24:058][917]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (125)
+[2019.01.24-05.47.24:058][917]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (123)
+[2019.01.24-05.47.24:058][917]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (121)
+[2019.01.24-05.47.24:058][917]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (119)
+[2019.01.24-05.47.24:058][917]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (117)
+[2019.01.24-05.47.24:059][917]LogModuleManager: Shutting down and abandoning module Messaging (115)
+[2019.01.24-05.47.24:059][917]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (113)
+[2019.01.24-05.47.24:060][917]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (111)
+[2019.01.24-05.47.24:060][917]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (109)
+[2019.01.24-05.47.24:070][917]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (107)
+[2019.01.24-05.47.24:070][917]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (105)
+[2019.01.24-05.47.24:070][917]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (103)
+[2019.01.24-05.47.24:070][917]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (101)
+[2019.01.24-05.47.24:070][917]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (99)
+[2019.01.24-05.47.24:070][917]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (97)
+[2019.01.24-05.47.24:070][917]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (95)
+[2019.01.24-05.47.24:070][917]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (93)
+[2019.01.24-05.47.24:070][917]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (91)
+[2019.01.24-05.47.24:070][917]LogModuleManager: Shutting down and abandoning module InputCore (88)
+[2019.01.24-05.47.24:070][917]LogModuleManager: Shutting down and abandoning module Settings (86)
+[2019.01.24-05.47.24:070][917]LogModuleManager: Shutting down and abandoning module PhysXCooking (84)
+[2019.01.24-05.47.24:070][917]LogModuleManager: Shutting down and abandoning module SteamVR (82)
+[2019.01.24-05.47.24:070][917]LogModuleManager: Shutting down and abandoning module OculusHMD (80)
+[2019.01.24-05.47.24:070][917]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (78)
+[2019.01.24-05.47.24:070][917]LogModuleManager: Shutting down and abandoning module LauncherChunkInstaller (76)
+[2019.01.24-05.47.24:071][917]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (74)
+[2019.01.24-05.47.24:071][917]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (70)
+[2019.01.24-05.47.24:072][917]LogModuleManager: Shutting down and abandoning module XMPP (65)
+[2019.01.24-05.47.24:072][917]LogModuleManager: Shutting down and abandoning module WebSockets (64)
+[2019.01.24-05.47.24:090][917]LogModuleManager: Shutting down and abandoning module HTTP (61)
+[2019.01.24-05.47.24:090][917]LogHttp: Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2019.01.24-05.47.24:090][917]LogHttp: Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B582705C1-45F3-822E-A93C-22A3555D8E6C%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.20.3-4369336%2B%2B%2BUE4%2BRelease-4.20&UserID=c95d44cb4f2618cad5816d8a5e1120b9%7C6cb5ffaa61c74406bc3a72a01411e918%7C1965856b-cfa4-476a-b7df-1fe74225e740&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2019.01.24-05.47.24:107][917]LogModuleManager: Shutting down and abandoning module SSL (60)
+[2019.01.24-05.47.24:109][917]LogModuleManager: Shutting down and abandoning module MagicLeapEmulator (56)
+[2019.01.24-05.47.24:109][917]LogModuleManager: Shutting down and abandoning module MagicLeapPrivileges (54)
+[2019.01.24-05.47.24:109][917]LogModuleManager: Shutting down and abandoning module MagicLeapIdentity (52)
+[2019.01.24-05.47.24:109][917]LogModuleManager: Shutting down and abandoning module MagicLeapHelperVulkan (50)
+[2019.01.24-05.47.24:109][917]LogModuleManager: Shutting down and abandoning module MagicLeapHelperOpenGL (48)
+[2019.01.24-05.47.24:109][917]LogModuleManager: Shutting down and abandoning module MagicLeapSecureStorage (46)
+[2019.01.24-05.47.24:109][917]LogModuleManager: Shutting down and abandoning module MagicLeapGestures (44)
+[2019.01.24-05.47.24:110][917]LogModuleManager: Shutting down and abandoning module MagicLeapEyeTracker (42)
+[2019.01.24-05.47.24:110][917]LogModuleManager: Shutting down and abandoning module MagicLeapController (40)
+[2019.01.24-05.47.24:110][917]LogSlate: Slate User Destroyed.  User Index 0, Is Virtual User: 0
+[2019.01.24-05.47.24:110][917]LogModuleManager: Shutting down and abandoning module MagicLeap (38)
+[2019.01.24-05.47.24:110][917]LogModuleManager: Shutting down and abandoning module AnimationModifiers (36)
+[2019.01.24-05.47.24:110][917]LogModuleManager: Shutting down and abandoning module PropertyEditor (35)
+[2019.01.24-05.47.24:110][917]LogModuleManager: Shutting down and abandoning module AudioEditor (32)
+[2019.01.24-05.47.24:110][917]LogModuleManager: Shutting down and abandoning module TextureCompressor (30)
+[2019.01.24-05.47.24:111][917]LogModuleManager: Shutting down and abandoning module ShaderCore (28)
+[2019.01.24-05.47.24:111][917]LogModuleManager: Shutting down and abandoning module Landscape (26)
+[2019.01.24-05.47.24:111][917]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (24)
+[2019.01.24-05.47.24:111][917]LogModuleManager: Shutting down and abandoning module OpenGLDrv (22)
+[2019.01.24-05.47.24:111][917]LogModuleManager: Shutting down and abandoning module D3D11RHI (20)
+[2019.01.24-05.47.24:111][917]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (18)
+[2019.01.24-05.47.24:111][917]LogModuleManager: Shutting down and abandoning module Renderer (16)
+[2019.01.24-05.47.24:111][917]LogModuleManager: Shutting down and abandoning module Engine (14)
+[2019.01.24-05.47.24:111][917]LogModuleManager: Shutting down and abandoning module CoreUObject (12)
+[2019.01.24-05.47.24:112][917]LogModuleManager: Shutting down and abandoning module NetworkFile (10)
+[2019.01.24-05.47.24:112][917]LogModuleManager: Shutting down and abandoning module CookedIterativeFile (8)
+[2019.01.24-05.47.24:112][917]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2019.01.24-05.47.24:112][917]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+[2019.01.24-05.47.24:112][917]LogModuleManager: Shutting down and abandoning module PakFile (2)
+[2019.01.24-05.47.24:122][917]LogExit: Exiting.
+[2019.01.24-05.47.24:126][917]Log file closed, 01/23/19 22:47:24
